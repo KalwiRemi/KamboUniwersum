@@ -6,7 +6,8 @@ download () {
     --no-download \
     --lazy-playlist \
     --break-on-reject \
-    --dateafter today-1month \
+    --dateafter today-1week \
+    --cookies cookies.txt \
       | jq -r '[.id, .channel_id, .channel_url, .webpage_url, .timestamp, .epoch, .upload_date, .duration, .duration_string, .view_count, .live_status, .is_live, .was_live, .title, .fulltitle, .like_count, .comment_count, .thumbnail, .channel_follower_count, .uploader, .uploader_id, .channel] | @csv' > data.csv
 }
 
