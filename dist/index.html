@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.12.0/sql-wasm.js"
+    integrity="sha512-tz0jOZaOg9RtWWB6AdxSkINQwIs7S5obj1Dlml9KewZLPTblTWCux5eLtnexBb8kbLUo5crPmjsi8/vI17Vw0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div id="app" class="bg-slate-100">
+    <div class="container mx-auto p-8">
+      <div class="flex gap-8">
+        <div class="flex-none w-[220px]">
+          <div v-for="channel in channels" :key="channel.channel_id" class="flex items-start space-2 gap-2">
+            <input type="checkbox" class="mt-1.5" :checked="selectedChannelIds.includes(channel.channel_id)"
+              @click="toggleChannel(channel.channel_id)" />
+            <a :href="channel.url" target="_blank">{{channel.name}}</a>
+          </div>
+        </div>
+        <div class="flex-1 grid lg:grid-cols-4 grid-cols-2 gap-2 grow">
+          <a v-for="video in videos" :key="video.id" class="flex flex-col gap-2" :href="video.webpage_url"
+            target="_blank">
+            <div :class="getThumbnailClass(video)">
+              <div class="absolute bottom-1 right-1 bg-black bg-opacity-80 text-white text-sm font-bold px-1">
+                {{video.duration_string}}</div>
+            </div>
+            <p class="text-xs underline decoration-sky-500">{{video.channel}}</p>
+            <p class="text-sm">{{video.title}}</p>
+          </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script>
+      async function loadDatabase() {
+        const sqlPromise = initSqlJs({
+          locateFile: file => `https://sql.js.org/dist/${file}`
+        });
+        const dataPromise = fetch('./database.sqlite').then(res => res.arrayBuffer());
+        const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
+
+        return new SQL.Database(new Uint8Array(buf));
+      }
+
+      const app = Vue.createApp({
+        data() {
+          return {
+            isReady: false,
+            channels: [],
+            selectedChannelIds: [],
+          }
+        },
+
+        computed: {
+          videos() {
+            if (!this.isReady) {
+              return [];
+            }
+            const res = window.db.exec(`
+              SELECT id, title, duration_string, webpage_url, channel
+              FROM videos
+              WHERE channel_id IN (${this.selectedChannelIds.map((id) => `'${id}'`).join(',')})
+              ORDER BY timestamp DESC
+              LIMIT 100;
+            `);
+            return res[0].values.map(([id, title, duration_string, webpage_url, channel]) => ({
+              id, title, duration_string, webpage_url, channel
+            }));
+          },
+          dailyLength() {
+            if (!this.isReady) {
+              return [];
+            }
+            const res = window.db.exec(`
+              WITH RECURSIVE dates(date) AS (
+                SELECT date('now', '-29 days')
+                UNION ALL
+                SELECT date(date, '+1 day')
+                FROM dates
+                WHERE date < date('now')
+              )
+              SELECT 
+                dates.date,
+                COALESCE(SUM(videos.duration), 0) as total_duration
+              FROM dates
+              LEFT JOIN videos ON date(datetime(videos.timestamp, 'unixepoch')) = dates.date
+              WHERE videos.channel_id IN (${this.selectedChannelIds.map((id) => `'${id}'`).join(',')})
+              GROUP BY dates.date
+              ORDER BY dates.date;
+            `)
+          }
+        },
+
+        methods: {
+          getThumbnailClass(video) {
+            const url = `https://i.ytimg.com/vi/${video.id}/mqdefault.jpg`;
+            return `bg-[url('${url}')] bg-cover bg-center w-full h-[130px] relative`;
+          },
+          toggleChannel(channel) {
+            if (this.selectedChannelIds.includes(channel)) {
+              this.selectedChannelIds = this.selectedChannelIds.filter(id => id !== channel);
+            } else {
+              this.selectedChannelIds.push(channel);
+            }
+          }
+        },
+
+        mounted() {
+          loadDatabase().then((db) => {
+            window.db = db;
+            this.channels = db.exec('SELECT DISTINCT channel_id, channel_url, channel FROM videos ORDER BY channel_id DESC;')[0].values.map(([channel_id, channel_url, channel]) => ({ channel_id, url: channel_url, name: channel }));
+            this.selectedChannelIds = this.channels.map(channel => channel.channel_id);
+            this.isReady = true;
+          }).catch((err) => {
+            window.alert(err.message)
+            console.error(err);
+          });
+        }
+      }).mount('#app');
+
+    </script>
+</body>
+
+</html>
