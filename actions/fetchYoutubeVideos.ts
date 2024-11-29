@@ -17,11 +17,19 @@ const CHANNEL_IDS = [
     'UCjbg2vx8eGFLaC3ekoVJLHg', // puzoniarze
     'UCja7PPlRxdxOttwudOu2BzQ', // leniwiec
     'UC1m795QiIJsKlA27s-RDHng', // mahan tv
+    'UCBX_bo0X95HAjxrX9qmrAnQ', // cambo life
+    'UCMXCt1oy4XlAqqvCgAf8QSw', // chemik z phnom penh
+    'UCAQad5B9IiU9rQBY3OE2Kbg', // tymon
+    'UCtcaHt553DRzaEiDqu-fdpA', // krokodylarz
+    'UCDh5eO_itbIPEs4nBge3KVA', // rio w azji
+    'UCrg63Ahih2yn1Gex9M-pkJg', // tharong kitchen
+    'UCWZHJzo-0Rn_qE4Iz7fA8hA', // cambodia follow my dream
 
     // commentary
     'UCiUKpAvUDZLbC33pP_jZ8MA', // boska palma
     'UC5dHYgxErrJpTA6Ww1i755w', // kambo shoty
     'UC7E-scxYJHi3lU8pzVSeKug', // palmowy raj
+    'UCVVS8eujGeT4RmZ6e9nPM4Q', // billy
 ];
 
 export interface Video {
