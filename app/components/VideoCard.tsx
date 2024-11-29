@@ -12,7 +12,7 @@ interface VideoCardProps {
 export default function VideoCard({ video }: VideoCardProps) {
     return (
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <a href={video.link} target="_blank" rel="noopener noreferrer" className="block hover:opacity-75 transition-opacity">
+            <a href={video.link} target="_blank" rel="noopener noreferrer" className="block hover:opacity-75 visited:opacity-50 transition-opacity">
                 <img
                     src={`https://img.youtube.com/vi/${video.link.split('v=')[1]}/mqdefault.jpg`}
                     alt={video.title}
