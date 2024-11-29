@@ -24,12 +24,15 @@ const CHANNEL_IDS = [
     'UCDh5eO_itbIPEs4nBge3KVA', // rio w azji
     'UCrg63Ahih2yn1Gex9M-pkJg', // tharong kitchen
     'UCWZHJzo-0Rn_qE4Iz7fA8hA', // cambodia follow my dream
+    'UC1SPkZIRegQ1uk48qoPLz5Q', // ucieczka do raju
+    'UCVfQ-lw8uTNV9vJe6ibKXCA', // hanys
 
     // commentary
     'UCiUKpAvUDZLbC33pP_jZ8MA', // boska palma
     'UC5dHYgxErrJpTA6Ww1i755w', // kambo shoty
     'UC7E-scxYJHi3lU8pzVSeKug', // palmowy raj
     'UCVVS8eujGeT4RmZ6e9nPM4Q', // billy
+    'UCZl9qeCivAGBZkD7ETZKNOw', // malpa klapek
 ];
 
 export interface Video {

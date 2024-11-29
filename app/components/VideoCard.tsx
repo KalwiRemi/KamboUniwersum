@@ -25,14 +25,9 @@ export default function VideoCard({ video }: VideoCardProps) {
                     <span>{video.channelTitle}</span>
                 </p>
                 <p className="text-xs text-gray-500 flex w-full justify-between">
-                    <span>
+                    <span title={moment(video.publishedAt).format('dddd DD/MM/YYYY HH:mm')}>
                         {moment(video.publishedAt).fromNow()}
                     </span>
-                    <span>
-                        {moment(video.publishedAt).format('DD/MM/YYYY HH:mm')}
-                    </span>
-                </p>
-                <p className="text-xs text-gray-500 flex w-full justify-end">
                     <span>{video.views.toLocaleString('pl-PL')} wyświetleń</span>
                 </p>
             </div>
