@@ -10,7 +10,7 @@ export default async function Home() {
 
     return (
       <main className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-6">Latest YouTube Videos</h1>
+        <h1 className="text-3xl font-bold mb-6">Kambo Uniwersum</h1>
         <VideoList videos={videos} />
       </main>
     );
@@ -18,7 +18,7 @@ export default async function Home() {
     console.error('Error fetching videos:', error);
     return (
       <main className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-6">Latest YouTube Videos</h1>
+        <h1 className="text-3xl font-bold mb-6">Kambo Uniwersum</h1>
         <p className="text-red-500">Failed to load videos. Please try again later.</p>
       </main>
     );
