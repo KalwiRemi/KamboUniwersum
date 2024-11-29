@@ -37,6 +37,7 @@ export interface Video {
   link: string;
   publishedAt: Date;
   channelTitle: string;
+  views: number;
 }
 
 async function fetchChannelVideos(channelId: string): Promise<Video[]> {
@@ -44,12 +45,13 @@ async function fetchChannelVideos(channelId: string): Promise<Video[]> {
   const xmlData = await response.text();
   
   const result = await parseStringPromise(xmlData, { explicitArray: false });
-  
+
   return result.feed.entry.map((entry: any) => ({
     title: entry.title,
     link: entry['link']['$']['href'],
     publishedAt: new Date(entry.published),
     channelTitle: entry['author']['name'],
+    views: parseInt(entry['media:group']['media:community']['media:statistics'].$.views, 10),
   }));
 }
 

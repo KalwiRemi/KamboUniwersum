@@ -19,9 +19,11 @@ export default function VideoCard({ video }: VideoCardProps) {
                     className="w-full h-48 object-cover"
                 />
             </a>
-            <div className="p-4">
-                <h2 className="text-lg text-gray-600 font-semibold mb-2 line-clamp-2">{video.title}</h2>
-                <p className="text-sm text-gray-600 mb-2">{video.channelTitle}</p>
+            <div className="p-4 space-y-2">
+                <h2 className="text-lg text-gray-600 font-semibold mb-2 line-clamp-2 min-h-12 leading-6">{video.title}</h2>
+                <p className="text-sm text-gray-600 mb-2 flex w-full justify-between">
+                    <span>{video.channelTitle}</span>
+                </p>
                 <p className="text-xs text-gray-500 flex w-full justify-between">
                     <span>
                         {moment(video.publishedAt).fromNow()}
@@ -29,6 +31,9 @@ export default function VideoCard({ video }: VideoCardProps) {
                     <span>
                         {moment(video.publishedAt).format('DD/MM/YYYY HH:mm')}
                     </span>
+                </p>
+                <p className="text-xs text-gray-500 flex w-full justify-end">
+                    <span>{video.views.toLocaleString('pl-PL')} wyświetleń</span>
                 </p>
             </div>
         </div>
