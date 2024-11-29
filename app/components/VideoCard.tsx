@@ -1,4 +1,9 @@
+import moment from 'moment';
 import { Video } from '@/actions/fetchYoutubeVideos';
+
+import 'moment/locale/pl';
+
+moment.locale('pl');
 
 interface VideoCardProps {
     video: Video;
@@ -17,16 +22,12 @@ export default function VideoCard({ video }: VideoCardProps) {
             <div className="p-4">
                 <h2 className="text-lg text-gray-600 font-semibold mb-2 line-clamp-2">{video.title}</h2>
                 <p className="text-sm text-gray-600 mb-2">{video.channelTitle}</p>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-gray-500 flex w-full justify-between">
                     <span>
-                        {new Intl.RelativeTimeFormat('pl', { numeric: 'auto' }).format(
-                            -Math.floor((new Date().getTime() - video.publishedAt.getTime()) / (1000 * 60 * 60 * 24)),
-                            'days'
-                        )}
+                        {moment(video.publishedAt).fromNow()}
                     </span>
-                    {' '}
                     <span>
-                        {video.publishedAt.toLocaleDateString()} {video.publishedAt.toLocaleTimeString()}
+                        {moment(video.publishedAt).format('DD/MM/YYYY HH:mm')}
                     </span>
                 </p>
             </div>
