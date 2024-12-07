@@ -1,4 +1,4 @@
-import { unstable_cache } from 'next/cache';
+import { unstable_cache, unstable_noStore } from 'next/cache';
 import { Video } from '@/actions/fetchYoutubeVideos'
 import { fetchAllChannelVideos } from '../utils/fetchYoutubeVideos';
 import VideoList from './components/VideoList';
@@ -10,6 +10,7 @@ const getVideos = unstable_cache(
 );
 
 export default async function Home() {
+  unstable_noStore();
   try {
     const videos: Video[] = await getVideos();
 
