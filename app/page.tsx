@@ -1,12 +1,17 @@
+import { unstable_cache } from 'next/cache';
 import { Video } from '@/actions/fetchYoutubeVideos'
 import { fetchAllChannelVideos } from '../utils/fetchYoutubeVideos';
 import VideoList from './components/VideoList';
 
-export const revalidate = 300; // 300 seconds = 5 minutes
+const getVideos = unstable_cache(
+  fetchAllChannelVideos,
+  ['videos'],
+  { revalidate: 300, tags: ['videos'] }
+);
 
 export default async function Home() {
   try {
-    const videos: Video[] = await fetchAllChannelVideos();
+    const videos: Video[] = await getVideos();
 
     return (
       <main className="container mx-auto px-4 py-8">
