@@ -48,6 +48,10 @@ async function fetchChannelVideos(channelId: string): Promise<Video[]> {
   const xmlData = await response.text();
   
   const result = await parseStringPromise(xmlData, { explicitArray: false });
+  
+  if (!Array.isArray(result.feed.entry)) {
+    return [];
+  }
 
   return result.feed.entry.map((entry: any) => ({
     title: entry.title,
