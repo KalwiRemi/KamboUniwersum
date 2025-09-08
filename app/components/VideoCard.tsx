@@ -5,16 +5,20 @@ import 'moment/locale/pl';
 
 moment.locale('pl');
 
+const VIDEO_ID_REGEX = /watch\?v=([a-zA-Z0-9\-_]+)/;
+const SHORT_ID_REGEX = /shorts\/([a-zA-Z0-9\-_]+)/;
+
 interface VideoCardProps {
     video: Video;
 }
 
 export default function VideoCard({ video }: VideoCardProps) {
+    const idMatch = video.link.match(VIDEO_ID_REGEX) || video.link.match(SHORT_ID_REGEX);
     return (
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <a href={video.link} target="_blank" rel="noopener noreferrer" className="block hover:opacity-75 visited:opacity-50 transition-opacity">
                 <img
-                    src={`https://img.youtube.com/vi/${video.link.split('v=')[1]}/mqdefault.jpg`}
+                    src={`https://img.youtube.com/vi/${idMatch?.[1]}/mqdefault.jpg`}
                     alt={video.title}
                     className="w-full h-48 object-cover"
                 />
