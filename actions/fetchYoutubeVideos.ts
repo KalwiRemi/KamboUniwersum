@@ -19,13 +19,14 @@ const CHANNEL_IDS = [
     'UC1m795QiIJsKlA27s-RDHng', // mahan tv
     'UCBX_bo0X95HAjxrX9qmrAnQ', // cambo life
     'UCMXCt1oy4XlAqqvCgAf8QSw', // chemik z phnom penh
-    'UCAQad5B9IiU9rQBY3OE2Kbg', // tymon
     'UCtcaHt553DRzaEiDqu-fdpA', // krokodylarz
     'UCDh5eO_itbIPEs4nBge3KVA', // rio w azji
     'UCrg63Ahih2yn1Gex9M-pkJg', // tharong kitchen
     'UCWZHJzo-0Rn_qE4Iz7fA8hA', // cambodia follow my dream
     'UC1SPkZIRegQ1uk48qoPLz5Q', // ucieczka do raju
     'UCVfQ-lw8uTNV9vJe6ibKXCA', // hanys
+    'UCCzVeNj3KiUEqt_evIX-Hwg', // niemowa
+    'UC5jkTt04ylacGXU4Qu76Bxg', // jarek
 
     // commentary
     'UCiUKpAvUDZLbC33pP_jZ8MA', // boska palma
