@@ -25,7 +25,6 @@ const CHANNEL_IDS = [
     'UCWZHJzo-0Rn_qE4Iz7fA8hA', // cambodia follow my dream
     'UC1SPkZIRegQ1uk48qoPLz5Q', // ucieczka do raju
     'UCVfQ-lw8uTNV9vJe6ibKXCA', // hanys
-    'UCCzVeNj3KiUEqt_evIX-Hwg', // niemowa
     'UC5jkTt04ylacGXU4Qu76Bxg', // jarek
 
     // commentary
