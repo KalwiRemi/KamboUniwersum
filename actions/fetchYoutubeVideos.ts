@@ -45,8 +45,13 @@ export interface Video {
 
 async function fetchChannelVideos(channelId: string): Promise<Video[]> {
   const response = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
-  const xmlData = await response.text();
+
+  if (response.status !== 200) {
+    return [];
+  }
   
+  const xmlData = await response.text();
+
   const result = await parseStringPromise(xmlData, { explicitArray: false });
   
   if (!Array.isArray(result.feed.entry)) {
