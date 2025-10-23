@@ -5,7 +5,15 @@ const sqlite3 = require('sqlite3').verbose();
 // Configuration - Add multiple channel IDs here
 const API_KEY = process.env.YOUTUBE_DATA_V3_API_KEY;
 const CHANNEL_IDS = [
+  'UC1v8Pb3mVVhctpado1zkY-Q', // raport
   'UCyFrUC936RTrwRjE0tEbZCQ', // popas
+  'UCSpjys0fmiuKlKq1l_NgvnA', // wloczykij
+  'UCgB0Zp12H3cEWnN5kkqXNMw', // filip
+  'UC3CW1FJJM08ux8HF1eVpqvQ', // pod nowym niebem
+  'UCfKGYjXohzOKDH0itYRZmgw', // waldi
+  'UCVwO3pAsl8u88yeHX9zPGqA', // cebe
+  'UCD1K3EhrvgFXb4U8vHBAs8w', // spocony 
+  'UCGt--eiSGtsDim-NxmLIrsw', // maniek
 ];
 
 // Initialize SQLite database
