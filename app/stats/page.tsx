@@ -121,6 +121,7 @@ export default function Page() {
               labelFormatter={(_, payload): string => {
                 return payload?.[0]?.payload?.month || ""
               }}
+              // @ts-ignore
               formatter={(value: number, _name, payload) => {
                 const channel = channels.find(
                   (c) => c.channel_id === payload.dataKey
