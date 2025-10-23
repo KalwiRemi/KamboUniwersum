@@ -26,6 +26,8 @@ jobs:
         run: npm ci
 
       - name: Run stats generation script
+        env:
+          YOUTUBE_DATA_V3_API_KEY: ${{ secrets.YOUTUBE_DATA_V3_API_KEY }}
         run: node ./scripts/generateStatsFile.js
 
       - name: Commit and push updated stats file
