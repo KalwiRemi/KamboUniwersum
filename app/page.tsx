@@ -1,4 +1,5 @@
 import { ChartLineIcon } from 'lucide-react'
+import Image from 'next/image';
 
 import { Video } from '@/actions/fetchYoutubeVideos'
 import { fetchAllChannelVideos } from '../utils/fetchYoutubeVideos';
@@ -13,8 +14,16 @@ export default async function Home() {
     return (
       <main className="container mx-auto px-4 py-8">
         <div className="flex gap-8 items-center mb-4">
-          <h1 className="text-3xl font-bold">Kambo Uniwersum</h1>
-          <a href="/stats" className="flex gap-4"><ChartLineIcon /> Statystyki</a>
+          <div className="flex gap-2 items-center">
+            <Image
+              src="/web-app-manifest-192x192.png"
+              width={64}
+              height={64}
+              alt="Logo"
+            />
+            <h1 className="text-3xl font-bold">Kambo Uniwersum</h1>
+          </div>
+          <a href="/stats" className="flex gap-2"><ChartLineIcon /> Statystyki</a>
         </div>
         <VideoList videos={videos} />
       </main>
