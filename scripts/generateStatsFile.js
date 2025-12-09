@@ -315,7 +315,7 @@ async function main() {
             };
             
             fs.writeFileSync(
-              '../public/monthly_average_views.json',
+              './public/monthly_average_views.json',
               JSON.stringify(outputData, null, 2)
             );
             
