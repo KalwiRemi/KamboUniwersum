@@ -26,6 +26,18 @@ const channelColorMap: { [_: string]: string } = {
   'UCGt--eiSGtsDim-NxmLIrsw': "#06b6d4"  // maniek
 }
 
+const lineDashPatterns = [
+  "0",
+  "10 4",
+  "6 4",
+  "2 4",
+  "12 6 2 6",
+  "14 4",
+  "8 3 2 3",
+  "3 3",
+  "16 4",
+];
+
 
 // --- Build a unified dataset across all months for all channels
 function buildUnifiedData(channels: any[]) {
@@ -191,6 +203,8 @@ export default function Page() {
                 name={ch.channel_name}
                 stroke={channelColorMap[ch.channel_id] || `hsl(${idx * 60}, 70%, 50%)`}
                 strokeWidth={3}
+                strokeDasharray={lineDashPatterns[idx % lineDashPatterns.length]}
+                strokeLinecap="round"
                 dot={false}
                 connectNulls={false}
                 hide={hiddenSeries.has(ch.channel_id)}
@@ -208,6 +222,11 @@ export default function Page() {
                     {payload.map((entry: any) => {
                       const dataKey = String(entry.dataKey || "");
                       const isHidden = hiddenSeries.has(dataKey);
+                      const channelIndex = channels.findIndex((ch) => ch.channel_id === dataKey);
+                      const dashPattern =
+                        channelIndex >= 0
+                          ? lineDashPatterns[channelIndex % lineDashPatterns.length]
+                          : "0";
                       return (
                         <button
                           key={dataKey}
@@ -218,10 +237,18 @@ export default function Page() {
                           }`}
                           style={{ color: "#1e293b" }}
                         >
-                          <span
-                            className="inline-block h-[3px] w-5 rounded-full"
-                            style={{ backgroundColor: entry.color }}
-                          />
+                          <svg width="24" height="8" viewBox="0 0 24 8" aria-hidden="true">
+                            <line
+                              x1="0"
+                              y1="4"
+                              x2="24"
+                              y2="4"
+                              stroke={entry.color}
+                              strokeWidth="3"
+                              strokeDasharray={dashPattern}
+                              strokeLinecap="round"
+                            />
+                          </svg>
                           <span className={isHidden ? "line-through" : ""}>
                             {entry.value}
                           </span>
