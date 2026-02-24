@@ -72,7 +72,7 @@ export default function Page() {
       <div className="mx-auto h-[80vh] w-full max-w-6xl rounded-md bg-[#f8fbff] p-2 md:p-4">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 px-2">
           <h1 className="rounded-sm bg-gradient-to-r from-[#0f172a] to-[#1d4ed8] px-4 py-1.5 text-2xl font-semibold text-[#f8fafc] shadow-md">
-            Zmiana wyświetleń kanałów
+            Statystyki wyświetleń kanałów
           </h1>
           <label htmlFor="time-range" className="mr-2 text-sm font-semibold text-[#1e3a8a]">
             Zakres czasu:
@@ -92,18 +92,24 @@ export default function Page() {
         <ResponsiveContainer>
           <LineChart
             data={visibleData}
-            margin={{ top: 8, right: 24, bottom: 24, left: 24 }}
+            margin={{ top: 8, right: 24, bottom: 56, left: 56 }}
           >
             <CartesianGrid vertical={false} stroke="#dbeafe" strokeWidth={1.2} />
             <XAxis
               dataKey="month"
-              tickMargin={8}
+              tickMargin={12}
               axisLine={{ stroke: "#cbd5e1", strokeWidth: 2 }}
               tickLine={{ stroke: "#cbd5e1", strokeWidth: 2 }}
               tick={{ fontSize: 15, fill: "#334155", fontWeight: 600 }}
-              label={{ value: "Miesiąc", position: "insideBottom", offset: -12 }}
+              label={{
+                value: "Miesiąc",
+                position: "bottom",
+                offset: 14,
+                style: { fill: "#0f172a", fontSize: 20, fontWeight: 700 },
+              }}
             />
             <YAxis
+              width={84}
               tickMargin={8}
               axisLine={false}
               tickLine={false}
@@ -112,8 +118,14 @@ export default function Page() {
                 value: "Śr. wyświetlenia",
                 angle: -90,
                 position: "insideLeft",
-                offset: -8,
-                style: { fill: "#0f172a", fontSize: 32, fontWeight: 700 },
+                offset: 0,
+                style: {
+                  fill: "#0f172a",
+                  fontSize: 20,
+                  fontWeight: 700,
+                  textAnchor: "middle",
+                  dominantBaseline: "middle",
+                },
               }}
             />
             {channels.map((ch, idx) => (
