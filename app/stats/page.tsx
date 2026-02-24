@@ -12,6 +12,7 @@ import {
   YAxis,
   CartesianGrid,
   Legend,
+  Brush,
 } from "recharts";
 
 const channelColorMap: { [_: string]: string } = {
@@ -130,14 +131,12 @@ export default function Page() {
       .map((ch, idx) => [ch.channel_id, idx])
   );
 
-  const [selectedRange, setSelectedRange] = useState("12");
-  const [yScaleType, setYScaleType] = useState<"linear" | "log">("log");
   const [hiddenSeries, setHiddenSeries] = useState<Set<string>>(new Set());
-
-  const visibleData =
-    selectedRange === "all"
-      ? unifiedData
-      : unifiedData.slice(Math.max(0, unifiedData.length - Number(selectedRange)));
+  const [brushWindow, setBrushWindow] = useState(() => {
+    const endIndex = Math.max(0, unifiedData.length - 1);
+    const startIndex = Math.max(0, endIndex - 11);
+    return { startIndex, endIndex };
+  });
 
   const toggleSeries = (seriesKey: string) => {
     setHiddenSeries((prev) => {
@@ -158,39 +157,11 @@ export default function Page() {
           <h1 className="text-2xl font-extrabold text-[#0f172a]">
             Statystyki wyświetleń kanałów
           </h1>
-          <div className="flex flex-wrap items-center gap-3">
-            <label htmlFor="time-range" className="text-sm font-semibold text-[#1e3a8a]">
-              Zakres czasu:
-              <select
-                id="time-range"
-                value={selectedRange}
-                onChange={(e) => setSelectedRange(e.target.value)}
-                className="ml-2 rounded-md border border-[#bfdbfe] bg-white px-3 py-1.5 text-sm text-[#1e293b] shadow-sm outline-none"
-              >
-                <option value="6">Ostatnie 6 miesięcy</option>
-                <option value="12">Ostatnie 12 miesięcy</option>
-                <option value="24">Ostatnie 24 miesiące</option>
-                <option value="all">Cały okres</option>
-              </select>
-            </label>
-            <label htmlFor="y-scale" className="text-sm font-semibold text-[#1e3a8a]">
-              Skala osi Y:
-              <select
-                id="y-scale"
-                value={yScaleType}
-                onChange={(e) => setYScaleType(e.target.value as "linear" | "log")}
-                className="ml-2 rounded-md border border-[#bfdbfe] bg-white px-3 py-1.5 text-sm text-[#1e293b] shadow-sm outline-none"
-              >
-                <option value="linear">Liniowa</option>
-                <option value="log">Logarytmiczna</option>
-              </select>
-            </label>
-          </div>
         </div>
         <ResponsiveContainer>
           <LineChart
-            data={visibleData}
-            margin={{ top: 8, right: 24, bottom: 56, left: 56 }}
+            data={unifiedData}
+            margin={{ top: 8, right: 24, bottom: 92, left: 56 }}
           >
             <CartesianGrid vertical={false} stroke="#dbeafe" strokeWidth={1.2} />
             <XAxis
@@ -209,7 +180,7 @@ export default function Page() {
             <YAxis
               width={84}
               tickMargin={8}
-              scale={yScaleType}
+              scale="linear"
               domain={["auto", "auto"]}
               axisLine={false}
               tickLine={false}
@@ -309,6 +280,23 @@ export default function Page() {
               cursor={{ stroke: "#94a3b8", strokeDasharray: "4 4", strokeWidth: 1.5 }}
               wrapperStyle={{ outline: "none" }}
               content={<CustomTooltip />}
+            />
+            <Brush
+              dataKey="month"
+              height={28}
+              stroke="#2563eb"
+              fill="#dbeafe"
+              travellerWidth={10}
+              startIndex={brushWindow.startIndex}
+              endIndex={brushWindow.endIndex}
+              onDragEnd={(range) => {
+                if (range?.startIndex == null || range?.endIndex == null) return;
+                setBrushWindow({
+                  startIndex: range.startIndex,
+                  endIndex: range.endIndex,
+                });
+              }}
+              tick={{ fill: "#334155", fontSize: 12 }}
             />
           </LineChart>
         </ResponsiveContainer>
