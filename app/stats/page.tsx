@@ -2,6 +2,7 @@
 
 import rawData from '../../public/monthly_average_views.json';
 
+import Link from "next/link";
 import { useState } from "react";
 import {
   LineChart,
@@ -154,9 +155,18 @@ export default function Page() {
     <main className="min-h-screen bg-gradient-to-b from-[#eef4ff] to-[#f7fbff] px-4 py-8 md:px-8">
       <div className="mx-auto h-[80vh] w-full max-w-6xl rounded-md bg-[#f8fbff] p-2 md:p-4">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 px-2">
-          <h1 className="text-2xl font-extrabold text-[#0f172a]">
-            Statystyki wyświetleń kanałów
-          </h1>
+          <div className="flex items-center gap-3">
+            <Link
+              href="/"
+              aria-label="Wróć do strony głównej"
+              className="inline-flex h-10 w-10 -mt-2 self-center items-center justify-center text-3xl font-black leading-none text-[#0f172a] transition-opacity hover:opacity-70"
+            >
+              <span className="-translate-y-0.5">⟵</span>
+            </Link>
+            <h1 className="text-2xl font-extrabold text-[#0f172a]">
+              Statystyki wyświetleń kanałów
+            </h1>
+          </div>
         </div>
         <ResponsiveContainer>
           <LineChart
