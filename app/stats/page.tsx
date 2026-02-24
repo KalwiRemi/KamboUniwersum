@@ -113,6 +113,22 @@ function CustomTooltip({
 export default function Page() {
   const channels = rawData.channels;
   const unifiedData = buildUnifiedData(channels);
+  const legendOrderByPopularity = new Map(
+    [...channels]
+      .sort((a, b) => {
+        const aTotalViews = a.monthly_stats.reduce(
+          (sum: number, month: any) => sum + (month.total_views || 0),
+          0
+        );
+        const bTotalViews = b.monthly_stats.reduce(
+          (sum: number, month: any) => sum + (month.total_views || 0),
+          0
+        );
+        if (bTotalViews !== aTotalViews) return bTotalViews - aTotalViews;
+        return a.channel_name.localeCompare(b.channel_name, "pl");
+      })
+      .map((ch, idx) => [ch.channel_id, idx])
+  );
 
   const [selectedRange, setSelectedRange] = useState("12");
   const [yScaleType, setYScaleType] = useState<"linear" | "log">("log");
@@ -235,9 +251,16 @@ export default function Page() {
               iconType="plainline"
               content={({ payload }) => {
                 if (!payload) return null;
+                const sortedPayload = [...payload].sort((a: any, b: any) => {
+                  const aKey = String(a.dataKey || "");
+                  const bKey = String(b.dataKey || "");
+                  const aOrder = legendOrderByPopularity.get(aKey) ?? Number.MAX_SAFE_INTEGER;
+                  const bOrder = legendOrderByPopularity.get(bKey) ?? Number.MAX_SAFE_INTEGER;
+                  return aOrder - bOrder;
+                });
                 return (
                   <div className="mb-2 flex flex-wrap justify-end gap-x-4 gap-y-2">
-                    {payload.map((entry: any) => {
+                    {sortedPayload.map((entry: any) => {
                       const dataKey = String(entry.dataKey || "");
                       const isHidden = hiddenSeries.has(dataKey);
                       const channelIndex = channels.findIndex((ch) => ch.channel_id === dataKey);
