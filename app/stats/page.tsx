@@ -115,6 +115,7 @@ export default function Page() {
   const unifiedData = buildUnifiedData(channels);
 
   const [selectedRange, setSelectedRange] = useState("12");
+  const [yScaleType, setYScaleType] = useState<"linear" | "log">("log");
   const [hiddenSeries, setHiddenSeries] = useState<Set<string>>(new Set());
 
   const visibleData =
@@ -141,20 +142,34 @@ export default function Page() {
           <h1 className="text-2xl font-extrabold text-[#0f172a]">
             Statystyki wyświetleń kanałów
           </h1>
-          <label htmlFor="time-range" className="mr-2 text-sm font-semibold text-[#1e3a8a]">
-            Zakres czasu:
-            <select
-              id="time-range"
-              value={selectedRange}
-              onChange={(e) => setSelectedRange(e.target.value)}
-              className="ml-2 rounded-md border border-[#bfdbfe] bg-white px-3 py-1.5 text-sm text-[#1e293b] shadow-sm outline-none"
-            >
-              <option value="6">Ostatnie 6 miesięcy</option>
-              <option value="12">Ostatnie 12 miesięcy</option>
-              <option value="24">Ostatnie 24 miesiące</option>
-              <option value="all">Cały okres</option>
-            </select>
-          </label>
+          <div className="flex flex-wrap items-center gap-3">
+            <label htmlFor="time-range" className="text-sm font-semibold text-[#1e3a8a]">
+              Zakres czasu:
+              <select
+                id="time-range"
+                value={selectedRange}
+                onChange={(e) => setSelectedRange(e.target.value)}
+                className="ml-2 rounded-md border border-[#bfdbfe] bg-white px-3 py-1.5 text-sm text-[#1e293b] shadow-sm outline-none"
+              >
+                <option value="6">Ostatnie 6 miesięcy</option>
+                <option value="12">Ostatnie 12 miesięcy</option>
+                <option value="24">Ostatnie 24 miesiące</option>
+                <option value="all">Cały okres</option>
+              </select>
+            </label>
+            <label htmlFor="y-scale" className="text-sm font-semibold text-[#1e3a8a]">
+              Skala osi Y:
+              <select
+                id="y-scale"
+                value={yScaleType}
+                onChange={(e) => setYScaleType(e.target.value as "linear" | "log")}
+                className="ml-2 rounded-md border border-[#bfdbfe] bg-white px-3 py-1.5 text-sm text-[#1e293b] shadow-sm outline-none"
+              >
+                <option value="linear">Liniowa</option>
+                <option value="log">Logarytmiczna</option>
+              </select>
+            </label>
+          </div>
         </div>
         <ResponsiveContainer>
           <LineChart
@@ -178,8 +193,11 @@ export default function Page() {
             <YAxis
               width={84}
               tickMargin={8}
+              scale={yScaleType}
+              domain={["auto", "auto"]}
               axisLine={false}
               tickLine={false}
+              tickFormatter={(value) => Number(value).toLocaleString("pl-PL")}
               tick={{ fontSize: 15, fill: "#334155", fontWeight: 600 }}
               label={{
                 value: "Śr. wyświetlenia",
