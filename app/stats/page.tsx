@@ -153,7 +153,7 @@ export default function Page() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#eef4ff] to-[#f7fbff] px-4 py-8 md:px-8">
-      <div className="mx-auto h-[80vh] w-full max-w-6xl rounded-md bg-[#f8fbff] p-2 md:p-4">
+      <div className="mx-auto h-[100vh] w-full max-w-6xl rounded-md bg-[#f8fbff] p-2 md:p-4">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 px-2">
           <div className="flex items-center gap-3">
             <Link
@@ -306,7 +306,6 @@ export default function Page() {
                   endIndex: range.endIndex,
                 });
               }}
-              tick={{ fill: "#334155", fontSize: 12 }}
             />
           </LineChart>
         </ResponsiveContainer>
