@@ -71,7 +71,7 @@ export default function Page() {
     <main className="min-h-screen bg-gradient-to-b from-[#eef4ff] to-[#f7fbff] px-4 py-8 md:px-8">
       <div className="mx-auto h-[80vh] w-full max-w-6xl rounded-md bg-[#f8fbff] p-2 md:p-4">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 px-2">
-          <h1 className="rounded-sm bg-gradient-to-r from-[#0f172a] to-[#1d4ed8] px-4 py-1.5 text-2xl font-semibold text-[#f8fafc] shadow-md">
+          <h1 className="text-2xl font-extrabold text-[#0f172a]">
             Statystyki wyświetleń kanałów
           </h1>
           <label htmlFor="time-range" className="mr-2 text-sm font-semibold text-[#1e3a8a]">
