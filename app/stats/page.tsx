@@ -43,6 +43,61 @@ function buildUnifiedData(channels: any[]) {
   });
 }
 
+type TooltipPayloadItem = {
+  color?: string;
+  name?: string;
+  value?: number | null;
+};
+
+function CustomTooltip({
+  active,
+  payload,
+  label,
+}: {
+  active?: boolean;
+  payload?: TooltipPayloadItem[];
+  label?: string;
+}) {
+  if (!active || !payload?.length) return null;
+
+  const sortedPayload = [...payload].sort((a, b) => {
+    const aValue = typeof a.value === "number" ? a.value : -1;
+    const bValue = typeof b.value === "number" ? b.value : -1;
+    return bValue - aValue;
+  });
+
+  return (
+    <div className="min-w-[280px] rounded-xl border border-slate-200/80 bg-white/95 px-4 py-3 shadow-[0_16px_40px_-18px_rgba(15,23,42,0.55)] backdrop-blur-sm">
+      <p className="mb-2 border-b border-slate-200 pb-2 text-sm font-bold tracking-wide text-slate-700">
+        {label}
+      </p>
+      <div className="space-y-1.5">
+        {sortedPayload.map((item) => (
+          <div key={item.name} className="flex items-center justify-between gap-4 text-sm">
+            <div className="flex min-w-0 items-center gap-2">
+              <span
+                className="h-2.5 w-2.5 shrink-0 rounded-full"
+                style={{ backgroundColor: item.color || "#64748b" }}
+              />
+              <span className="truncate font-medium text-slate-700">{item.name}</span>
+            </div>
+            <span className="shrink-0 font-semibold text-slate-900">
+              {typeof item.value === "number" ? (
+                <>
+                  {item.value.toLocaleString("pl-PL")}
+                  <span className="ml-1 text-xs font-medium text-slate-500">/ film</span>
+                </>
+              ) : (
+                "Brak danych"
+              )}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Page() {
   const channels = rawData.channels;
   const unifiedData = buildUnifiedData(channels);
@@ -183,26 +238,9 @@ export default function Page() {
               }}
             />
             <Tooltip
-              labelFormatter={(_, payload): string => {
-                return payload?.[0]?.payload?.month || ""
-              }}
-              // @ts-ignore
-              formatter={(value: number, _name, payload) => {
-                const channel = channels.find(
-                  (c) => c.channel_id === payload.dataKey
-                );
-                return [
-                  value ? `${value.toLocaleString()} wyświetleń/film` : "Brak danych",
-                  channel?.channel_name || "",
-                ];
-              }}
-              contentStyle={{
-                backgroundColor: "#ffffff",
-                border: "1px solid #bfdbfe",
-                borderRadius: "0.5rem",
-                fontSize: "0.9rem",
-                boxShadow: "0 8px 24px rgba(37, 99, 235, 0.12)",
-              }}
+              cursor={{ stroke: "#94a3b8", strokeDasharray: "4 4", strokeWidth: 1.5 }}
+              wrapperStyle={{ outline: "none" }}
+              content={<CustomTooltip />}
             />
           </LineChart>
         </ResponsiveContainer>
