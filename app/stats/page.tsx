@@ -114,6 +114,9 @@ function CustomTooltip({
 
 export default function Page() {
   const channels = rawData.channels;
+  const lastUpdated = rawData.generated_at
+    ? new Date(rawData.generated_at).toISOString().slice(0, 10)
+    : "";
   const unifiedData = buildUnifiedData(channels);
   const legendOrderByPopularity = new Map(
     [...channels]
@@ -167,6 +170,9 @@ export default function Page() {
               Statystyki wyświetleń kanałów
             </h1>
           </div>
+          <div className="text-sm font-semibold text-slate-600">
+            Ostatnia aktualizacja: {lastUpdated}
+          </div>
         </div>
         <ResponsiveContainer>
           <LineChart
@@ -180,12 +186,6 @@ export default function Page() {
               axisLine={{ stroke: "#cbd5e1", strokeWidth: 2 }}
               tickLine={{ stroke: "#cbd5e1", strokeWidth: 2 }}
               tick={{ fontSize: 15, fill: "#334155", fontWeight: 600 }}
-              label={{
-                value: "Miesiąc",
-                position: "bottom",
-                offset: 14,
-                style: { fill: "#0f172a", fontSize: 20, fontWeight: 700 },
-              }}
             />
             <YAxis
               width={84}
