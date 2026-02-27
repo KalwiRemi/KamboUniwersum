@@ -1,6 +1,8 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Kambo Uniwersum",
+  "short_name": "Kambo",
+  "description": "Najnowsze filmy i statystyki kanałów kambodżańskiego uniwersum. Polacy w kambodży.",
+  "lang": "pl-PL",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

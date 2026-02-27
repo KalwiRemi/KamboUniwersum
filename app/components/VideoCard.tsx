@@ -16,11 +16,17 @@ interface VideoCardProps {
 export default function VideoCard({ video }: VideoCardProps) {
     const idMatch = video.link.match(VIDEO_ID_REGEX) || video.link.match(SHORT_ID_REGEX);
     const isShort = SHORT_ID_REGEX.test(video.link);
+    const thumbnailSrc = idMatch?.[1]
+        ? `https://img.youtube.com/vi/${idMatch[1]}/mqdefault.jpg`
+        : "/web-app-manifest-192x192.png";
     return (
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <a href={video.link} target="_blank" rel="noopener noreferrer" className="block hover:opacity-75 visited:opacity-50 transition-opacity relative">
-                <img
-                    src={`https://img.youtube.com/vi/${idMatch?.[1]}/mqdefault.jpg`}
+                <Image
+                    src={thumbnailSrc}
+                    width={320}
+                    height={180}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt={video.title}
                     className="w-full h-48 object-cover"
                 />
