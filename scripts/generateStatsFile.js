@@ -1,6 +1,6 @@
 const fs = require('fs');
 const https = require('https');
-const sqlite3 = require('sqlite3').verbose();
+const { DatabaseSync } = require('node:sqlite');
 
 // Configuration - Add multiple channel IDs here
 const API_KEY = process.env.YOUTUBE_DATA_V3_API_KEY;
@@ -16,32 +16,28 @@ const CHANNEL_IDS = [
   'UCGt--eiSGtsDim-NxmLIrsw', // maniek
 ];
 
-// Initialize SQLite database
-const db = new sqlite3.Database('./youtube_videos.db', (err) => {
-  if (err) {
-    console.error('Error opening database:', err.message);
-    process.exit(1);
-  }
+let db;
+try {
+  // Initialize SQLite database
+  db = new DatabaseSync('./youtube_videos.db');
   console.log('Connected to SQLite database');
-});
 
-// Create table if it doesn't exist (now includes channel_id)
-db.run(`
-  CREATE TABLE IF NOT EXISTS videos (
-    video_id TEXT PRIMARY KEY,
-    channel_id TEXT,
-    channel_name TEXT,
-    title TEXT,
-    upload_date TEXT,
-    view_count INTEGER,
-    last_updated TEXT
-  )
-`, (err) => {
-  if (err) {
-    console.error('Error creating table:', err.message);
-    process.exit(1);
-  }
-});
+  // Create table if it doesn't exist (now includes channel_id)
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS videos (
+      video_id TEXT PRIMARY KEY,
+      channel_id TEXT,
+      channel_name TEXT,
+      title TEXT,
+      upload_date TEXT,
+      view_count INTEGER,
+      last_updated TEXT
+    )
+  `);
+} catch (error) {
+  console.error('Error initializing database:', error.message);
+  process.exit(1);
+}
 
 // Function to make HTTPS request
 function httpsGet(url) {
@@ -133,14 +129,13 @@ async function fetchPlaylistVideos(playlistId, channelId, channelName, apiKey) {
 
 // Function to insert videos into database
 function insertVideos(videos) {
-  return new Promise((resolve, reject) => {
-    const stmt = db.prepare(`
-      INSERT OR REPLACE INTO videos (video_id, channel_id, channel_name, title, upload_date, view_count, last_updated)
-      VALUES (?, ?, ?, ?, ?, ?, ?)
-    `);
+  const stmt = db.prepare(`
+    INSERT OR REPLACE INTO videos (video_id, channel_id, channel_name, title, upload_date, view_count, last_updated)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
+  `);
 
-    let completed = 0;
-    videos.forEach((video) => {
+  for (const video of videos) {
+    try {
       stmt.run(
         video.videoId,
         video.channelId,
@@ -148,20 +143,12 @@ function insertVideos(videos) {
         video.title,
         video.uploadDate,
         video.viewCount,
-        new Date().toISOString(),
-        (err) => {
-          if (err) {
-            console.error(`Error inserting video ${video.videoId}:`, err.message);
-          }
-          completed++;
-          if (completed === videos.length) {
-            stmt.finalize();
-            resolve();
-          }
-        }
+        new Date().toISOString()
       );
-    });
-  });
+    } catch (error) {
+      console.error(`Error inserting video ${video.videoId}:`, error.message);
+    }
+  }
 }
 
 // Function to process a single channel
@@ -199,57 +186,50 @@ async function processChannel(channelId, apiKey) {
 
 // Function to calculate average daily views per month
 function calculateMonthlyAverages() {
-  return new Promise((resolve, reject) => {
-    const query = `
-      SELECT 
-        channel_id,
-        channel_name,
-        strftime('%Y-%m', upload_date) as month,
-        COUNT(*) as video_count,
-        SUM(view_count) as total_views,
-        AVG(view_count) as avg_views_per_video
-      FROM videos
-      WHERE upload_date IS NOT NULL
-      GROUP BY channel_id, channel_name, strftime('%Y-%m', upload_date)
-      ORDER BY channel_name, month
-    `;
-    
-    db.all(query, (err, rows) => {
-      if (err) {
-        reject(err);
-        return;
-      }
-      
-      // Group by channel
-      const channelData = {};
-      
-      rows.forEach(row => {
-        if (!channelData[row.channel_id]) {
-          channelData[row.channel_id] = {
-            channel_id: row.channel_id,
-            channel_name: row.channel_name,
-            monthly_stats: []
-          };
-        }
-        
-        // Calculate days in month for this data
-        const [year, month] = row.month.split('-');
-        const daysInMonth = new Date(year, month, 0).getDate();
-        const avgDailyViews = row.total_views / daysInMonth;
-        
-        channelData[row.channel_id].monthly_stats.push({
-          month: row.month,
-          video_count: row.video_count,
-          total_views: row.total_views,
-          avg_views_per_video: Math.round(row.avg_views_per_video),
-          avg_daily_views: Math.round(avgDailyViews),
-          days_in_month: daysInMonth
-        });
-      });
-      
-      resolve(Object.values(channelData));
+  const query = `
+    SELECT 
+      channel_id,
+      channel_name,
+      strftime('%Y-%m', upload_date) as month,
+      COUNT(*) as video_count,
+      SUM(view_count) as total_views,
+      AVG(view_count) as avg_views_per_video
+    FROM videos
+    WHERE upload_date IS NOT NULL
+    GROUP BY channel_id, channel_name, strftime('%Y-%m', upload_date)
+    ORDER BY channel_name, month
+  `;
+
+  const rows = db.prepare(query).all();
+
+  // Group by channel
+  const channelData = {};
+
+  rows.forEach(row => {
+    if (!channelData[row.channel_id]) {
+      channelData[row.channel_id] = {
+        channel_id: row.channel_id,
+        channel_name: row.channel_name,
+        monthly_stats: []
+      };
+    }
+
+    // Calculate days in month for this data
+    const [year, month] = row.month.split('-');
+    const daysInMonth = new Date(year, month, 0).getDate();
+    const avgDailyViews = row.total_views / daysInMonth;
+
+    channelData[row.channel_id].monthly_stats.push({
+      month: row.month,
+      video_count: row.video_count,
+      total_views: row.total_views,
+      avg_views_per_video: Math.round(row.avg_views_per_video),
+      avg_daily_views: Math.round(avgDailyViews),
+      days_in_month: daysInMonth
     });
   });
+
+  return Object.values(channelData);
 }
 
 // Main execution
@@ -276,9 +256,9 @@ async function main() {
     console.log(`\n${'='.repeat(60)}`);
     console.log('ALL CHANNELS PROCESSED');
     console.log('='.repeat(60));
-    
+
     // Display overall statistics
-    db.all(`
+    const rows = db.prepare(`
       SELECT 
         channel_name,
         COUNT(*) as video_count,
@@ -286,57 +266,53 @@ async function main() {
       FROM videos
       GROUP BY channel_id, channel_name
       ORDER BY video_count DESC
-    `, async (err, rows) => {
-      if (!err) {
-        console.log('\nDatabase Statistics by Channel:');
-        console.log('-'.repeat(60));
-        rows.forEach(row => {
-          console.log(`${row.channel_name}:`);
-          console.log(`  Videos: ${row.video_count}`);
-          console.log(`  Total Views: ${row.total_views.toLocaleString()}`);
-        });
-        
-        db.get('SELECT COUNT(*) as total, SUM(view_count) as all_views FROM videos', async (err, summary) => {
-          if (!err) {
-            console.log('-'.repeat(60));
-            console.log(`TOTAL VIDEOS: ${summary.total}`);
-            console.log(`TOTAL VIEWS: ${summary.all_views.toLocaleString()}`);
-          }
-          
-          // Calculate and export monthly averages
-          try {
-            console.log('\nCalculating monthly statistics...');
-            const monthlyData = await calculateMonthlyAverages();
-            
-            const outputData = {
-              generated_at: new Date().toISOString(),
-              total_channels: CHANNEL_IDS.length,
-              channels: monthlyData
-            };
-            
-            fs.writeFileSync(
-              './public/monthly_average_views.json',
-              JSON.stringify(outputData, null, 2)
-            );
-            
-            console.log('✓ Monthly statistics exported to: monthly_average_views.json');
-          } catch (exportErr) {
-            console.error('Error exporting monthly data:', exportErr.message);
-          }
-          
-          db.close();
-        });
-      } else {
-        db.close();
-      }
+    `).all();
 
-      fs.unlinkSync('./youtube_videos.db')
+    console.log('\nDatabase Statistics by Channel:');
+    console.log('-'.repeat(60));
+    rows.forEach(row => {
+      console.log(`${row.channel_name}:`);
+      console.log(`  Videos: ${row.video_count}`);
+      console.log(`  Total Views: ${row.total_views.toLocaleString()}`);
     });
+
+    const summary = db.prepare('SELECT COUNT(*) as total, SUM(view_count) as all_views FROM videos').get();
+    console.log('-'.repeat(60));
+    console.log(`TOTAL VIDEOS: ${summary.total}`);
+    console.log(`TOTAL VIEWS: ${summary.all_views.toLocaleString()}`);
+
+    // Calculate and export monthly averages
+    try {
+      console.log('\nCalculating monthly statistics...');
+      const monthlyData = calculateMonthlyAverages();
+
+      const outputData = {
+        generated_at: new Date().toISOString(),
+        total_channels: CHANNEL_IDS.length,
+        channels: monthlyData
+      };
+
+      fs.writeFileSync(
+        './public/monthly_average_views.json',
+        JSON.stringify(outputData, null, 2)
+      );
+
+      console.log('✓ Monthly statistics exported to: monthly_average_views.json');
+    } catch (exportErr) {
+      console.error('Error exporting monthly data:', exportErr.message);
+    }
     
   } catch (error) {
     console.error('Fatal Error:', error.message);
-    db.close();
     process.exit(1);
+  } finally {
+    if (db) {
+      db.close();
+    }
+
+    if (fs.existsSync('./youtube_videos.db')) {
+      fs.unlinkSync('./youtube_videos.db');
+    }
   }
 }
 
