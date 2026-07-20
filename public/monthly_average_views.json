@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T03:28:08.099Z",
+  "generated_at": "2026-07-20T03:35:04.551Z",
   "total_channels": 9,
   "channels": [
     {
@@ -9,47 +9,47 @@
         {
           "month": "2024-06",
           "video_count": 5,
-          "total_views": 10759,
-          "avg_views_per_video": 2152,
+          "total_views": 10764,
+          "avg_views_per_video": 2153,
           "avg_daily_views": 359,
           "days_in_month": 30
         },
         {
           "month": "2024-07",
           "video_count": 25,
-          "total_views": 51508,
-          "avg_views_per_video": 2060,
+          "total_views": 51515,
+          "avg_views_per_video": 2061,
           "avg_daily_views": 1662,
           "days_in_month": 31
         },
         {
           "month": "2024-08",
           "video_count": 18,
-          "total_views": 35356,
-          "avg_views_per_video": 1964,
+          "total_views": 35367,
+          "avg_views_per_video": 1965,
           "avg_daily_views": 1141,
           "days_in_month": 31
         },
         {
           "month": "2024-09",
           "video_count": 15,
-          "total_views": 38294,
+          "total_views": 38295,
           "avg_views_per_video": 2553,
-          "avg_daily_views": 1276,
+          "avg_daily_views": 1277,
           "days_in_month": 30
         },
         {
           "month": "2024-10",
           "video_count": 25,
-          "total_views": 40881,
-          "avg_views_per_video": 1635,
+          "total_views": 40889,
+          "avg_views_per_video": 1636,
           "avg_daily_views": 1319,
           "days_in_month": 31
         },
         {
           "month": "2024-11",
           "video_count": 20,
-          "total_views": 32516,
+          "total_views": 32519,
           "avg_views_per_video": 1626,
           "avg_daily_views": 1084,
           "days_in_month": 30
@@ -57,7 +57,7 @@
         {
           "month": "2024-12",
           "video_count": 23,
-          "total_views": 42470,
+          "total_views": 42485,
           "avg_views_per_video": 1847,
           "avg_daily_views": 1370,
           "days_in_month": 31
@@ -65,15 +65,15 @@
         {
           "month": "2025-01",
           "video_count": 12,
-          "total_views": 49968,
-          "avg_views_per_video": 4164,
+          "total_views": 49980,
+          "avg_views_per_video": 4165,
           "avg_daily_views": 1612,
           "days_in_month": 31
         },
         {
           "month": "2025-02",
           "video_count": 17,
-          "total_views": 42393,
+          "total_views": 42395,
           "avg_views_per_video": 2494,
           "avg_daily_views": 1514,
           "days_in_month": 28
@@ -81,55 +81,55 @@
         {
           "month": "2025-03",
           "video_count": 33,
-          "total_views": 91097,
-          "avg_views_per_video": 2761,
-          "avg_daily_views": 2939,
+          "total_views": 91134,
+          "avg_views_per_video": 2762,
+          "avg_daily_views": 2940,
           "days_in_month": 31
         },
         {
           "month": "2025-04",
           "video_count": 28,
-          "total_views": 50776,
-          "avg_views_per_video": 1813,
+          "total_views": 50780,
+          "avg_views_per_video": 1814,
           "avg_daily_views": 1693,
           "days_in_month": 30
         },
         {
           "month": "2025-05",
           "video_count": 24,
-          "total_views": 36458,
-          "avg_views_per_video": 1519,
+          "total_views": 36471,
+          "avg_views_per_video": 1520,
           "avg_daily_views": 1176,
           "days_in_month": 31
         },
         {
           "month": "2025-06",
           "video_count": 27,
-          "total_views": 45891,
-          "avg_views_per_video": 1700,
+          "total_views": 45914,
+          "avg_views_per_video": 1701,
           "avg_daily_views": 1530,
           "days_in_month": 30
         },
         {
           "month": "2025-07",
           "video_count": 44,
-          "total_views": 56964,
-          "avg_views_per_video": 1295,
-          "avg_daily_views": 1838,
+          "total_views": 57014,
+          "avg_views_per_video": 1296,
+          "avg_daily_views": 1839,
           "days_in_month": 31
         },
         {
           "month": "2025-08",
           "video_count": 34,
-          "total_views": 50366,
-          "avg_views_per_video": 1481,
-          "avg_daily_views": 1625,
+          "total_views": 50508,
+          "avg_views_per_video": 1486,
+          "avg_daily_views": 1629,
           "days_in_month": 31
         },
         {
           "month": "2025-09",
           "video_count": 24,
-          "total_views": 34395,
+          "total_views": 34402,
           "avg_views_per_video": 1433,
           "avg_daily_views": 1147,
           "days_in_month": 30
@@ -137,7 +137,7 @@
         {
           "month": "2025-10",
           "video_count": 31,
-          "total_views": 34184,
+          "total_views": 34196,
           "avg_views_per_video": 1103,
           "avg_daily_views": 1103,
           "days_in_month": 31
@@ -145,73 +145,73 @@
         {
           "month": "2025-11",
           "video_count": 40,
-          "total_views": 47141,
+          "total_views": 47178,
           "avg_views_per_video": 1179,
-          "avg_daily_views": 1571,
+          "avg_daily_views": 1573,
           "days_in_month": 30
         },
         {
           "month": "2025-12",
           "video_count": 53,
-          "total_views": 56306,
-          "avg_views_per_video": 1062,
-          "avg_daily_views": 1816,
+          "total_views": 56555,
+          "avg_views_per_video": 1067,
+          "avg_daily_views": 1824,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 44,
-          "total_views": 53420,
-          "avg_views_per_video": 1214,
-          "avg_daily_views": 1723,
+          "total_views": 53666,
+          "avg_views_per_video": 1220,
+          "avg_daily_views": 1731,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 24,
-          "total_views": 28798,
-          "avg_views_per_video": 1200,
-          "avg_daily_views": 1029,
+          "total_views": 28829,
+          "avg_views_per_video": 1201,
+          "avg_daily_views": 1030,
           "days_in_month": 28
         },
         {
           "month": "2026-03",
           "video_count": 25,
-          "total_views": 28315,
-          "avg_views_per_video": 1133,
-          "avg_daily_views": 913,
+          "total_views": 28635,
+          "avg_views_per_video": 1145,
+          "avg_daily_views": 924,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 37,
-          "total_views": 64988,
-          "avg_views_per_video": 1756,
-          "avg_daily_views": 2166,
+          "total_views": 65104,
+          "avg_views_per_video": 1760,
+          "avg_daily_views": 2170,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 38,
-          "total_views": 80397,
-          "avg_views_per_video": 2116,
-          "avg_daily_views": 2593,
+          "total_views": 80503,
+          "avg_views_per_video": 2119,
+          "avg_daily_views": 2597,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 31,
-          "total_views": 66201,
-          "avg_views_per_video": 2136,
-          "avg_daily_views": 2207,
+          "total_views": 68258,
+          "avg_views_per_video": 2202,
+          "avg_daily_views": 2275,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 6,
-          "total_views": 13014,
-          "avg_views_per_video": 2169,
-          "avg_daily_views": 420,
+          "video_count": 14,
+          "total_views": 24533,
+          "avg_views_per_video": 1752,
+          "avg_daily_views": 791,
           "days_in_month": 31
         }
       ]
@@ -223,7 +223,7 @@
         {
           "month": "2023-09",
           "video_count": 5,
-          "total_views": 10409,
+          "total_views": 10412,
           "avg_views_per_video": 2082,
           "avg_daily_views": 347,
           "days_in_month": 30
@@ -247,7 +247,7 @@
         {
           "month": "2023-12",
           "video_count": 37,
-          "total_views": 48571,
+          "total_views": 48569,
           "avg_views_per_video": 1313,
           "avg_daily_views": 1567,
           "days_in_month": 31
@@ -255,31 +255,31 @@
         {
           "month": "2024-01",
           "video_count": 25,
-          "total_views": 38035,
-          "avg_views_per_video": 1521,
-          "avg_daily_views": 1227,
+          "total_views": 38172,
+          "avg_views_per_video": 1527,
+          "avg_daily_views": 1231,
           "days_in_month": 31
         },
         {
           "month": "2024-02",
           "video_count": 37,
-          "total_views": 41077,
+          "total_views": 41087,
           "avg_views_per_video": 1110,
-          "avg_daily_views": 1416,
+          "avg_daily_views": 1417,
           "days_in_month": 29
         },
         {
           "month": "2024-03",
           "video_count": 37,
-          "total_views": 33738,
+          "total_views": 33745,
           "avg_views_per_video": 912,
-          "avg_daily_views": 1088,
+          "avg_daily_views": 1089,
           "days_in_month": 31
         },
         {
           "month": "2024-04",
           "video_count": 26,
-          "total_views": 35587,
+          "total_views": 35589,
           "avg_views_per_video": 1369,
           "avg_daily_views": 1186,
           "days_in_month": 30
@@ -287,15 +287,15 @@
         {
           "month": "2024-05",
           "video_count": 26,
-          "total_views": 44872,
+          "total_views": 44873,
           "avg_views_per_video": 1726,
-          "avg_daily_views": 1447,
+          "avg_daily_views": 1448,
           "days_in_month": 31
         },
         {
           "month": "2024-06",
           "video_count": 22,
-          "total_views": 45169,
+          "total_views": 45172,
           "avg_views_per_video": 2053,
           "avg_daily_views": 1506,
           "days_in_month": 30
@@ -303,7 +303,7 @@
         {
           "month": "2024-07",
           "video_count": 21,
-          "total_views": 46010,
+          "total_views": 46015,
           "avg_views_per_video": 2191,
           "avg_daily_views": 1484,
           "days_in_month": 31
@@ -311,23 +311,23 @@
         {
           "month": "2024-08",
           "video_count": 22,
-          "total_views": 57671,
-          "avg_views_per_video": 2621,
-          "avg_daily_views": 1860,
+          "total_views": 57677,
+          "avg_views_per_video": 2622,
+          "avg_daily_views": 1861,
           "days_in_month": 31
         },
         {
           "month": "2024-09",
           "video_count": 20,
-          "total_views": 48526,
-          "avg_views_per_video": 2426,
+          "total_views": 48539,
+          "avg_views_per_video": 2427,
           "avg_daily_views": 1618,
           "days_in_month": 30
         },
         {
           "month": "2024-10",
           "video_count": 16,
-          "total_views": 26906,
+          "total_views": 26907,
           "avg_views_per_video": 1682,
           "avg_daily_views": 868,
           "days_in_month": 31
@@ -359,7 +359,7 @@
         {
           "month": "2025-02",
           "video_count": 26,
-          "total_views": 33898,
+          "total_views": 33903,
           "avg_views_per_video": 1304,
           "avg_daily_views": 1211,
           "days_in_month": 28
@@ -367,15 +367,15 @@
         {
           "month": "2025-03",
           "video_count": 27,
-          "total_views": 31844,
-          "avg_views_per_video": 1179,
+          "total_views": 31847,
+          "avg_views_per_video": 1180,
           "avg_daily_views": 1027,
           "days_in_month": 31
         },
         {
           "month": "2025-04",
           "video_count": 33,
-          "total_views": 43295,
+          "total_views": 43300,
           "avg_views_per_video": 1312,
           "avg_daily_views": 1443,
           "days_in_month": 30
@@ -383,7 +383,7 @@
         {
           "month": "2025-05",
           "video_count": 25,
-          "total_views": 36566,
+          "total_views": 36568,
           "avg_views_per_video": 1463,
           "avg_daily_views": 1180,
           "days_in_month": 31
@@ -391,23 +391,23 @@
         {
           "month": "2025-06",
           "video_count": 12,
-          "total_views": 14991,
-          "avg_views_per_video": 1249,
+          "total_views": 14994,
+          "avg_views_per_video": 1250,
           "avg_daily_views": 500,
           "days_in_month": 30
         },
         {
           "month": "2025-07",
           "video_count": 13,
-          "total_views": 18799,
-          "avg_views_per_video": 1446,
-          "avg_daily_views": 606,
+          "total_views": 18807,
+          "avg_views_per_video": 1447,
+          "avg_daily_views": 607,
           "days_in_month": 31
         },
         {
           "month": "2025-08",
           "video_count": 12,
-          "total_views": 19821,
+          "total_views": 19823,
           "avg_views_per_video": 1652,
           "avg_daily_views": 639,
           "days_in_month": 31
@@ -415,9 +415,9 @@
         {
           "month": "2025-09",
           "video_count": 27,
-          "total_views": 24344,
-          "avg_views_per_video": 902,
-          "avg_daily_views": 811,
+          "total_views": 24383,
+          "avg_views_per_video": 903,
+          "avg_daily_views": 813,
           "days_in_month": 30
         },
         {
@@ -431,8 +431,8 @@
         {
           "month": "2025-11",
           "video_count": 10,
-          "total_views": 6593,
-          "avg_views_per_video": 659,
+          "total_views": 6603,
+          "avg_views_per_video": 660,
           "avg_daily_views": 220,
           "days_in_month": 30
         },
@@ -447,57 +447,57 @@
         {
           "month": "2026-01",
           "video_count": 12,
-          "total_views": 7562,
-          "avg_views_per_video": 630,
+          "total_views": 7566,
+          "avg_views_per_video": 631,
           "avg_daily_views": 244,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 4,
-          "total_views": 4367,
-          "avg_views_per_video": 1092,
+          "total_views": 4370,
+          "avg_views_per_video": 1093,
           "avg_daily_views": 156,
           "days_in_month": 28
         },
         {
           "month": "2026-03",
           "video_count": 1,
-          "total_views": 2267,
-          "avg_views_per_video": 2267,
+          "total_views": 2269,
+          "avg_views_per_video": 2269,
           "avg_daily_views": 73,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 4,
-          "total_views": 4613,
-          "avg_views_per_video": 1153,
+          "total_views": 4614,
+          "avg_views_per_video": 1154,
           "avg_daily_views": 154,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 16,
-          "total_views": 11519,
-          "avg_views_per_video": 720,
-          "avg_daily_views": 372,
+          "total_views": 11554,
+          "avg_views_per_video": 722,
+          "avg_daily_views": 373,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 12,
-          "total_views": 8181,
-          "avg_views_per_video": 682,
-          "avg_daily_views": 273,
+          "total_views": 8265,
+          "avg_views_per_video": 689,
+          "avg_daily_views": 276,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 1,
-          "total_views": 348,
-          "avg_views_per_video": 348,
-          "avg_daily_views": 11,
+          "video_count": 2,
+          "total_views": 969,
+          "avg_views_per_video": 485,
+          "avg_daily_views": 31,
           "days_in_month": 31
         }
       ]
@@ -509,7 +509,7 @@
         {
           "month": "2023-07",
           "video_count": 26,
-          "total_views": 12056,
+          "total_views": 12069,
           "avg_views_per_video": 464,
           "avg_daily_views": 389,
           "days_in_month": 31
@@ -517,7 +517,7 @@
         {
           "month": "2023-08",
           "video_count": 10,
-          "total_views": 2426,
+          "total_views": 2427,
           "avg_views_per_video": 243,
           "avg_daily_views": 78,
           "days_in_month": 31
@@ -525,7 +525,7 @@
         {
           "month": "2023-09",
           "video_count": 13,
-          "total_views": 6626,
+          "total_views": 6629,
           "avg_views_per_video": 510,
           "avg_daily_views": 221,
           "days_in_month": 30
@@ -533,7 +533,7 @@
         {
           "month": "2023-10",
           "video_count": 7,
-          "total_views": 1722,
+          "total_views": 1725,
           "avg_views_per_video": 246,
           "avg_daily_views": 56,
           "days_in_month": 31
@@ -541,7 +541,7 @@
         {
           "month": "2023-11",
           "video_count": 27,
-          "total_views": 8148,
+          "total_views": 8155,
           "avg_views_per_video": 302,
           "avg_daily_views": 272,
           "days_in_month": 30
@@ -549,7 +549,7 @@
         {
           "month": "2023-12",
           "video_count": 20,
-          "total_views": 13633,
+          "total_views": 13636,
           "avg_views_per_video": 682,
           "avg_daily_views": 440,
           "days_in_month": 31
@@ -557,15 +557,15 @@
         {
           "month": "2024-01",
           "video_count": 25,
-          "total_views": 33498,
-          "avg_views_per_video": 1340,
+          "total_views": 33518,
+          "avg_views_per_video": 1341,
           "avg_daily_views": 1081,
           "days_in_month": 31
         },
         {
           "month": "2024-02",
           "video_count": 14,
-          "total_views": 16032,
+          "total_views": 16033,
           "avg_views_per_video": 1145,
           "avg_daily_views": 553,
           "days_in_month": 29
@@ -573,7 +573,7 @@
         {
           "month": "2024-03",
           "video_count": 18,
-          "total_views": 22195,
+          "total_views": 22202,
           "avg_views_per_video": 1233,
           "avg_daily_views": 716,
           "days_in_month": 31
@@ -589,7 +589,7 @@
         {
           "month": "2024-05",
           "video_count": 14,
-          "total_views": 13826,
+          "total_views": 13827,
           "avg_views_per_video": 988,
           "avg_daily_views": 446,
           "days_in_month": 31
@@ -597,7 +597,7 @@
         {
           "month": "2024-06",
           "video_count": 24,
-          "total_views": 19701,
+          "total_views": 19702,
           "avg_views_per_video": 821,
           "avg_daily_views": 657,
           "days_in_month": 30
@@ -621,7 +621,7 @@
         {
           "month": "2024-09",
           "video_count": 18,
-          "total_views": 16092,
+          "total_views": 16093,
           "avg_views_per_video": 894,
           "avg_daily_views": 536,
           "days_in_month": 30
@@ -629,7 +629,7 @@
         {
           "month": "2024-10",
           "video_count": 21,
-          "total_views": 18537,
+          "total_views": 18538,
           "avg_views_per_video": 883,
           "avg_daily_views": 598,
           "days_in_month": 31
@@ -637,23 +637,23 @@
         {
           "month": "2024-11",
           "video_count": 15,
-          "total_views": 17887,
-          "avg_views_per_video": 1192,
+          "total_views": 17889,
+          "avg_views_per_video": 1193,
           "avg_daily_views": 596,
           "days_in_month": 30
         },
         {
           "month": "2024-12",
           "video_count": 3,
-          "total_views": 958,
-          "avg_views_per_video": 319,
+          "total_views": 961,
+          "avg_views_per_video": 320,
           "avg_daily_views": 31,
           "days_in_month": 31
         },
         {
           "month": "2025-01",
           "video_count": 14,
-          "total_views": 13975,
+          "total_views": 13978,
           "avg_views_per_video": 998,
           "avg_daily_views": 451,
           "days_in_month": 31
@@ -661,7 +661,7 @@
         {
           "month": "2025-02",
           "video_count": 8,
-          "total_views": 8038,
+          "total_views": 8040,
           "avg_views_per_video": 1005,
           "avg_daily_views": 287,
           "days_in_month": 28
@@ -669,7 +669,7 @@
         {
           "month": "2025-03",
           "video_count": 14,
-          "total_views": 7161,
+          "total_views": 7168,
           "avg_views_per_video": 512,
           "avg_daily_views": 231,
           "days_in_month": 31
@@ -677,23 +677,23 @@
         {
           "month": "2025-04",
           "video_count": 19,
-          "total_views": 21112,
-          "avg_views_per_video": 1111,
-          "avg_daily_views": 704,
+          "total_views": 21136,
+          "avg_views_per_video": 1112,
+          "avg_daily_views": 705,
           "days_in_month": 30
         },
         {
           "month": "2025-05",
           "video_count": 9,
-          "total_views": 6578,
-          "avg_views_per_video": 731,
+          "total_views": 6584,
+          "avg_views_per_video": 732,
           "avg_daily_views": 212,
           "days_in_month": 31
         },
         {
           "month": "2025-06",
           "video_count": 13,
-          "total_views": 5888,
+          "total_views": 5893,
           "avg_views_per_video": 453,
           "avg_daily_views": 196,
           "days_in_month": 30
@@ -701,23 +701,23 @@
         {
           "month": "2025-07",
           "video_count": 17,
-          "total_views": 17302,
-          "avg_views_per_video": 1018,
-          "avg_daily_views": 558,
+          "total_views": 17328,
+          "avg_views_per_video": 1019,
+          "avg_daily_views": 559,
           "days_in_month": 31
         },
         {
           "month": "2025-08",
           "video_count": 6,
-          "total_views": 7704,
-          "avg_views_per_video": 1284,
+          "total_views": 7713,
+          "avg_views_per_video": 1286,
           "avg_daily_views": 249,
           "days_in_month": 31
         },
         {
           "month": "2025-09",
           "video_count": 13,
-          "total_views": 6178,
+          "total_views": 6181,
           "avg_views_per_video": 475,
           "avg_daily_views": 206,
           "days_in_month": 30
@@ -733,73 +733,73 @@
         {
           "month": "2025-11",
           "video_count": 41,
-          "total_views": 33372,
-          "avg_views_per_video": 814,
-          "avg_daily_views": 1112,
+          "total_views": 33399,
+          "avg_views_per_video": 815,
+          "avg_daily_views": 1113,
           "days_in_month": 30
         },
         {
           "month": "2025-12",
           "video_count": 16,
-          "total_views": 16898,
-          "avg_views_per_video": 1056,
-          "avg_daily_views": 545,
+          "total_views": 16911,
+          "avg_views_per_video": 1057,
+          "avg_daily_views": 546,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 22,
-          "total_views": 34100,
-          "avg_views_per_video": 1550,
-          "avg_daily_views": 1100,
+          "total_views": 34130,
+          "avg_views_per_video": 1551,
+          "avg_daily_views": 1101,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 23,
-          "total_views": 24538,
-          "avg_views_per_video": 1067,
-          "avg_daily_views": 876,
+          "total_views": 24593,
+          "avg_views_per_video": 1069,
+          "avg_daily_views": 878,
           "days_in_month": 28
         },
         {
           "month": "2026-03",
           "video_count": 21,
-          "total_views": 28673,
-          "avg_views_per_video": 1365,
-          "avg_daily_views": 925,
+          "total_views": 28716,
+          "avg_views_per_video": 1367,
+          "avg_daily_views": 926,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 3,
-          "total_views": 2304,
-          "avg_views_per_video": 768,
+          "total_views": 2313,
+          "avg_views_per_video": 771,
           "avg_daily_views": 77,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 5,
-          "total_views": 4174,
-          "avg_views_per_video": 835,
+          "total_views": 4188,
+          "avg_views_per_video": 838,
           "avg_daily_views": 135,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 1,
-          "total_views": 1834,
-          "avg_views_per_video": 1834,
-          "avg_daily_views": 61,
+          "total_views": 1873,
+          "avg_views_per_video": 1873,
+          "avg_daily_views": 62,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 5,
-          "total_views": 1525,
-          "avg_views_per_video": 305,
-          "avg_daily_views": 49,
+          "video_count": 10,
+          "total_views": 2803,
+          "avg_views_per_video": 280,
+          "avg_daily_views": 90,
           "days_in_month": 31
         }
       ]
@@ -811,23 +811,23 @@
         {
           "month": "2024-01",
           "video_count": 10,
-          "total_views": 142417,
-          "avg_views_per_video": 14242,
-          "avg_daily_views": 4594,
+          "total_views": 142431,
+          "avg_views_per_video": 14243,
+          "avg_daily_views": 4595,
           "days_in_month": 31
         },
         {
           "month": "2024-02",
           "video_count": 35,
-          "total_views": 331114,
-          "avg_views_per_video": 9460,
+          "total_views": 331131,
+          "avg_views_per_video": 9461,
           "avg_daily_views": 11418,
           "days_in_month": 29
         },
         {
           "month": "2024-03",
           "video_count": 31,
-          "total_views": 242642,
+          "total_views": 242645,
           "avg_views_per_video": 7827,
           "avg_daily_views": 7827,
           "days_in_month": 31
@@ -835,7 +835,7 @@
         {
           "month": "2024-04",
           "video_count": 45,
-          "total_views": 328534,
+          "total_views": 328536,
           "avg_views_per_video": 7301,
           "avg_daily_views": 10951,
           "days_in_month": 30
@@ -843,23 +843,23 @@
         {
           "month": "2024-05",
           "video_count": 54,
-          "total_views": 358583,
-          "avg_views_per_video": 6640,
-          "avg_daily_views": 11567,
+          "total_views": 358593,
+          "avg_views_per_video": 6641,
+          "avg_daily_views": 11568,
           "days_in_month": 31
         },
         {
           "month": "2024-06",
           "video_count": 37,
-          "total_views": 323653,
+          "total_views": 323656,
           "avg_views_per_video": 8747,
-          "avg_daily_views": 10788,
+          "avg_daily_views": 10789,
           "days_in_month": 30
         },
         {
           "month": "2024-07",
           "video_count": 41,
-          "total_views": 301597,
+          "total_views": 301599,
           "avg_views_per_video": 7356,
           "avg_daily_views": 9729,
           "days_in_month": 31
@@ -867,7 +867,7 @@
         {
           "month": "2024-08",
           "video_count": 36,
-          "total_views": 251964,
+          "total_views": 251966,
           "avg_views_per_video": 6999,
           "avg_daily_views": 8128,
           "days_in_month": 31
@@ -875,7 +875,7 @@
         {
           "month": "2024-09",
           "video_count": 35,
-          "total_views": 172366,
+          "total_views": 172367,
           "avg_views_per_video": 4925,
           "avg_daily_views": 5746,
           "days_in_month": 30
@@ -883,15 +883,15 @@
         {
           "month": "2024-10",
           "video_count": 39,
-          "total_views": 138389,
-          "avg_views_per_video": 3548,
+          "total_views": 138393,
+          "avg_views_per_video": 3549,
           "avg_daily_views": 4464,
           "days_in_month": 31
         },
         {
           "month": "2024-11",
           "video_count": 35,
-          "total_views": 128333,
+          "total_views": 128334,
           "avg_views_per_video": 3667,
           "avg_daily_views": 4278,
           "days_in_month": 30
@@ -907,23 +907,23 @@
         {
           "month": "2025-01",
           "video_count": 37,
-          "total_views": 185732,
+          "total_views": 185737,
           "avg_views_per_video": 5020,
-          "avg_daily_views": 5991,
+          "avg_daily_views": 5992,
           "days_in_month": 31
         },
         {
           "month": "2025-02",
           "video_count": 40,
-          "total_views": 131892,
+          "total_views": 131898,
           "avg_views_per_video": 3297,
-          "avg_daily_views": 4710,
+          "avg_daily_views": 4711,
           "days_in_month": 28
         },
         {
           "month": "2025-03",
           "video_count": 52,
-          "total_views": 146723,
+          "total_views": 146725,
           "avg_views_per_video": 2822,
           "avg_daily_views": 4733,
           "days_in_month": 31
@@ -947,7 +947,7 @@
         {
           "month": "2025-06",
           "video_count": 38,
-          "total_views": 171427,
+          "total_views": 171430,
           "avg_views_per_video": 4511,
           "avg_daily_views": 5714,
           "days_in_month": 30
@@ -955,7 +955,7 @@
         {
           "month": "2025-07",
           "video_count": 30,
-          "total_views": 137490,
+          "total_views": 137493,
           "avg_views_per_video": 4583,
           "avg_daily_views": 4435,
           "days_in_month": 31
@@ -963,15 +963,15 @@
         {
           "month": "2025-08",
           "video_count": 40,
-          "total_views": 100206,
+          "total_views": 100211,
           "avg_views_per_video": 2505,
-          "avg_daily_views": 3232,
+          "avg_daily_views": 3233,
           "days_in_month": 31
         },
         {
           "month": "2025-09",
           "video_count": 34,
-          "total_views": 61220,
+          "total_views": 61224,
           "avg_views_per_video": 1801,
           "avg_daily_views": 2041,
           "days_in_month": 30
@@ -979,7 +979,7 @@
         {
           "month": "2025-10",
           "video_count": 33,
-          "total_views": 73314,
+          "total_views": 73319,
           "avg_views_per_video": 2222,
           "avg_daily_views": 2365,
           "days_in_month": 31
@@ -987,7 +987,7 @@
         {
           "month": "2025-11",
           "video_count": 45,
-          "total_views": 70506,
+          "total_views": 70510,
           "avg_views_per_video": 1567,
           "avg_daily_views": 2350,
           "days_in_month": 30
@@ -995,57 +995,57 @@
         {
           "month": "2025-12",
           "video_count": 55,
-          "total_views": 82547,
-          "avg_views_per_video": 1501,
-          "avg_daily_views": 2663,
+          "total_views": 82583,
+          "avg_views_per_video": 1502,
+          "avg_daily_views": 2664,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 38,
-          "total_views": 65007,
+          "total_views": 65034,
           "avg_views_per_video": 1711,
-          "avg_daily_views": 2097,
+          "avg_daily_views": 2098,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 27,
-          "total_views": 41256,
-          "avg_views_per_video": 1528,
-          "avg_daily_views": 1473,
+          "total_views": 41300,
+          "avg_views_per_video": 1530,
+          "avg_daily_views": 1475,
           "days_in_month": 28
         },
         {
           "month": "2026-03",
           "video_count": 42,
-          "total_views": 56575,
-          "avg_views_per_video": 1347,
-          "avg_daily_views": 1825,
+          "total_views": 56669,
+          "avg_views_per_video": 1349,
+          "avg_daily_views": 1828,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 10,
-          "total_views": 17269,
-          "avg_views_per_video": 1727,
+          "total_views": 17286,
+          "avg_views_per_video": 1729,
           "avg_daily_views": 576,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 16,
-          "total_views": 49340,
-          "avg_views_per_video": 3084,
-          "avg_daily_views": 1592,
+          "total_views": 49485,
+          "avg_views_per_video": 3093,
+          "avg_daily_views": 1596,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 7,
-          "total_views": 16831,
-          "avg_views_per_video": 2404,
-          "avg_daily_views": 561,
+          "total_views": 17446,
+          "avg_views_per_video": 2492,
+          "avg_daily_views": 582,
           "days_in_month": 30
         }
       ]
@@ -1057,63 +1057,63 @@
         {
           "month": "2016-10",
           "video_count": 1,
-          "total_views": 7468,
-          "avg_views_per_video": 7468,
+          "total_views": 7471,
+          "avg_views_per_video": 7471,
           "avg_daily_views": 241,
           "days_in_month": 31
         },
         {
           "month": "2017-02",
           "video_count": 4,
-          "total_views": 61627,
-          "avg_views_per_video": 15407,
-          "avg_daily_views": 2201,
+          "total_views": 61696,
+          "avg_views_per_video": 15424,
+          "avg_daily_views": 2203,
           "days_in_month": 28
         },
         {
           "month": "2021-02",
           "video_count": 6,
-          "total_views": 160905,
-          "avg_views_per_video": 26818,
-          "avg_daily_views": 5747,
+          "total_views": 160948,
+          "avg_views_per_video": 26825,
+          "avg_daily_views": 5748,
           "days_in_month": 28
         },
         {
           "month": "2021-03",
           "video_count": 10,
-          "total_views": 289520,
-          "avg_views_per_video": 28952,
-          "avg_daily_views": 9339,
+          "total_views": 289537,
+          "avg_views_per_video": 28954,
+          "avg_daily_views": 9340,
           "days_in_month": 31
         },
         {
           "month": "2021-04",
           "video_count": 41,
-          "total_views": 703839,
-          "avg_views_per_video": 17167,
-          "avg_daily_views": 23461,
+          "total_views": 703872,
+          "avg_views_per_video": 17168,
+          "avg_daily_views": 23462,
           "days_in_month": 30
         },
         {
           "month": "2021-05",
           "video_count": 56,
-          "total_views": 552223,
-          "avg_views_per_video": 9861,
-          "avg_daily_views": 17814,
+          "total_views": 552259,
+          "avg_views_per_video": 9862,
+          "avg_daily_views": 17815,
           "days_in_month": 31
         },
         {
           "month": "2021-06",
           "video_count": 64,
-          "total_views": 561772,
-          "avg_views_per_video": 8778,
-          "avg_daily_views": 18726,
+          "total_views": 561827,
+          "avg_views_per_video": 8779,
+          "avg_daily_views": 18728,
           "days_in_month": 30
         },
         {
           "month": "2021-07",
           "video_count": 65,
-          "total_views": 487646,
+          "total_views": 487653,
           "avg_views_per_video": 7502,
           "avg_daily_views": 15731,
           "days_in_month": 31
@@ -1121,15 +1121,15 @@
         {
           "month": "2021-08",
           "video_count": 66,
-          "total_views": 453867,
+          "total_views": 453910,
           "avg_views_per_video": 6877,
-          "avg_daily_views": 14641,
+          "avg_daily_views": 14642,
           "days_in_month": 31
         },
         {
           "month": "2021-09",
           "video_count": 50,
-          "total_views": 360198,
+          "total_views": 360214,
           "avg_views_per_video": 7204,
           "avg_daily_views": 12007,
           "days_in_month": 30
@@ -1137,15 +1137,15 @@
         {
           "month": "2021-10",
           "video_count": 38,
-          "total_views": 308141,
-          "avg_views_per_video": 8109,
-          "avg_daily_views": 9940,
+          "total_views": 308169,
+          "avg_views_per_video": 8110,
+          "avg_daily_views": 9941,
           "days_in_month": 31
         },
         {
           "month": "2021-11",
           "video_count": 28,
-          "total_views": 317988,
+          "total_views": 318002,
           "avg_views_per_video": 11357,
           "avg_daily_views": 10600,
           "days_in_month": 30
@@ -1153,7 +1153,7 @@
         {
           "month": "2021-12",
           "video_count": 33,
-          "total_views": 374840,
+          "total_views": 374852,
           "avg_views_per_video": 11359,
           "avg_daily_views": 12092,
           "days_in_month": 31
@@ -1161,7 +1161,7 @@
         {
           "month": "2022-01",
           "video_count": 32,
-          "total_views": 427912,
+          "total_views": 427917,
           "avg_views_per_video": 13372,
           "avg_daily_views": 13804,
           "days_in_month": 31
@@ -1169,15 +1169,15 @@
         {
           "month": "2022-02",
           "video_count": 28,
-          "total_views": 395203,
-          "avg_views_per_video": 14114,
-          "avg_daily_views": 14114,
+          "total_views": 395217,
+          "avg_views_per_video": 14115,
+          "avg_daily_views": 14115,
           "days_in_month": 28
         },
         {
           "month": "2022-03",
           "video_count": 31,
-          "total_views": 418552,
+          "total_views": 418557,
           "avg_views_per_video": 13502,
           "avg_daily_views": 13502,
           "days_in_month": 31
@@ -1193,7 +1193,7 @@
         {
           "month": "2022-05",
           "video_count": 33,
-          "total_views": 432847,
+          "total_views": 432852,
           "avg_views_per_video": 13117,
           "avg_daily_views": 13963,
           "days_in_month": 31
@@ -1201,9 +1201,9 @@
         {
           "month": "2022-06",
           "video_count": 30,
-          "total_views": 374774,
-          "avg_views_per_video": 12492,
-          "avg_daily_views": 12492,
+          "total_views": 374783,
+          "avg_views_per_video": 12493,
+          "avg_daily_views": 12493,
           "days_in_month": 30
         },
         {
@@ -1217,7 +1217,7 @@
         {
           "month": "2022-08",
           "video_count": 38,
-          "total_views": 434992,
+          "total_views": 434999,
           "avg_views_per_video": 11447,
           "avg_daily_views": 14032,
           "days_in_month": 31
@@ -1225,7 +1225,7 @@
         {
           "month": "2022-09",
           "video_count": 43,
-          "total_views": 397777,
+          "total_views": 397778,
           "avg_views_per_video": 9251,
           "avg_daily_views": 13259,
           "days_in_month": 30
@@ -1233,63 +1233,63 @@
         {
           "month": "2022-10",
           "video_count": 37,
-          "total_views": 403086,
-          "avg_views_per_video": 10894,
-          "avg_daily_views": 13003,
+          "total_views": 403151,
+          "avg_views_per_video": 10896,
+          "avg_daily_views": 13005,
           "days_in_month": 31
         },
         {
           "month": "2022-11",
           "video_count": 54,
-          "total_views": 554949,
-          "avg_views_per_video": 10277,
-          "avg_daily_views": 18498,
+          "total_views": 555279,
+          "avg_views_per_video": 10283,
+          "avg_daily_views": 18509,
           "days_in_month": 30
         },
         {
           "month": "2022-12",
           "video_count": 35,
-          "total_views": 381054,
-          "avg_views_per_video": 10887,
+          "total_views": 381065,
+          "avg_views_per_video": 10888,
           "avg_daily_views": 12292,
           "days_in_month": 31
         },
         {
           "month": "2023-01",
           "video_count": 34,
-          "total_views": 587077,
-          "avg_views_per_video": 17267,
-          "avg_daily_views": 18938,
+          "total_views": 587099,
+          "avg_views_per_video": 17268,
+          "avg_daily_views": 18939,
           "days_in_month": 31
         },
         {
           "month": "2023-02",
           "video_count": 31,
-          "total_views": 555655,
-          "avg_views_per_video": 17924,
+          "total_views": 555668,
+          "avg_views_per_video": 17925,
           "avg_daily_views": 19845,
           "days_in_month": 28
         },
         {
           "month": "2023-03",
           "video_count": 32,
-          "total_views": 522611,
-          "avg_views_per_video": 16332,
-          "avg_daily_views": 16858,
+          "total_views": 522644,
+          "avg_views_per_video": 16333,
+          "avg_daily_views": 16859,
           "days_in_month": 31
         },
         {
           "month": "2023-04",
           "video_count": 30,
-          "total_views": 476261,
-          "avg_views_per_video": 15875,
-          "avg_daily_views": 15875,
+          "total_views": 476266,
+          "avg_views_per_video": 15876,
+          "avg_daily_views": 15876,
           "days_in_month": 30
         },
         {
           "month": "2023-05",
           "video_count": 33,
-          "total_views": 552907,
+          "total_views": 552924,
           "avg_views_per_video": 16755,
           "avg_daily_views": 17836,
           "days_in_month": 31
@@ -1297,7 +1297,7 @@
         {
           "month": "2023-06",
           "video_count": 31,
-          "total_views": 504050,
+          "total_views": 504060,
           "avg_views_per_video": 16260,
           "avg_daily_views": 16802,
           "days_in_month": 30
@@ -1305,55 +1305,55 @@
         {
           "month": "2023-07",
           "video_count": 33,
-          "total_views": 524507,
-          "avg_views_per_video": 15894,
-          "avg_daily_views": 16920,
+          "total_views": 524570,
+          "avg_views_per_video": 15896,
+          "avg_daily_views": 16922,
           "days_in_month": 31
         },
         {
           "month": "2023-08",
           "video_count": 43,
-          "total_views": 627526,
-          "avg_views_per_video": 14594,
-          "avg_daily_views": 20243,
+          "total_views": 627594,
+          "avg_views_per_video": 14595,
+          "avg_daily_views": 20245,
           "days_in_month": 31
         },
         {
           "month": "2023-09",
           "video_count": 39,
-          "total_views": 582772,
-          "avg_views_per_video": 14943,
-          "avg_daily_views": 19426,
+          "total_views": 582802,
+          "avg_views_per_video": 14944,
+          "avg_daily_views": 19427,
           "days_in_month": 30
         },
         {
           "month": "2023-10",
           "video_count": 36,
-          "total_views": 563830,
-          "avg_views_per_video": 15662,
-          "avg_daily_views": 18188,
+          "total_views": 563866,
+          "avg_views_per_video": 15663,
+          "avg_daily_views": 18189,
           "days_in_month": 31
         },
         {
           "month": "2023-11",
           "video_count": 33,
-          "total_views": 491238,
-          "avg_views_per_video": 14886,
+          "total_views": 491264,
+          "avg_views_per_video": 14887,
           "avg_daily_views": 16375,
           "days_in_month": 30
         },
         {
           "month": "2023-12",
           "video_count": 31,
-          "total_views": 449027,
-          "avg_views_per_video": 14485,
-          "avg_daily_views": 14485,
+          "total_views": 449070,
+          "avg_views_per_video": 14486,
+          "avg_daily_views": 14486,
           "days_in_month": 31
         },
         {
           "month": "2024-01",
           "video_count": 32,
-          "total_views": 458360,
+          "total_views": 458380,
           "avg_views_per_video": 14324,
           "avg_daily_views": 14786,
           "days_in_month": 31
@@ -1361,15 +1361,15 @@
         {
           "month": "2024-02",
           "video_count": 30,
-          "total_views": 405255,
-          "avg_views_per_video": 13509,
-          "avg_daily_views": 13974,
+          "total_views": 405295,
+          "avg_views_per_video": 13510,
+          "avg_daily_views": 13976,
           "days_in_month": 29
         },
         {
           "month": "2024-03",
           "video_count": 32,
-          "total_views": 414398,
+          "total_views": 414409,
           "avg_views_per_video": 12950,
           "avg_daily_views": 13368,
           "days_in_month": 31
@@ -1377,225 +1377,225 @@
         {
           "month": "2024-04",
           "video_count": 47,
-          "total_views": 530273,
-          "avg_views_per_video": 11282,
-          "avg_daily_views": 17676,
+          "total_views": 530419,
+          "avg_views_per_video": 11286,
+          "avg_daily_views": 17681,
           "days_in_month": 30
         },
         {
           "month": "2024-05",
           "video_count": 63,
-          "total_views": 678396,
-          "avg_views_per_video": 10768,
-          "avg_daily_views": 21884,
+          "total_views": 678607,
+          "avg_views_per_video": 10772,
+          "avg_daily_views": 21891,
           "days_in_month": 31
         },
         {
           "month": "2024-06",
           "video_count": 54,
-          "total_views": 442001,
-          "avg_views_per_video": 8185,
-          "avg_daily_views": 14733,
+          "total_views": 442043,
+          "avg_views_per_video": 8186,
+          "avg_daily_views": 14735,
           "days_in_month": 30
         },
         {
           "month": "2024-07",
           "video_count": 37,
-          "total_views": 365844,
-          "avg_views_per_video": 9888,
-          "avg_daily_views": 11801,
+          "total_views": 366078,
+          "avg_views_per_video": 9894,
+          "avg_daily_views": 11809,
           "days_in_month": 31
         },
         {
           "month": "2024-08",
           "video_count": 36,
-          "total_views": 359243,
+          "total_views": 359246,
           "avg_views_per_video": 9979,
-          "avg_daily_views": 11588,
+          "avg_daily_views": 11589,
           "days_in_month": 31
         },
         {
           "month": "2024-09",
           "video_count": 32,
-          "total_views": 298539,
-          "avg_views_per_video": 9329,
-          "avg_daily_views": 9951,
+          "total_views": 298553,
+          "avg_views_per_video": 9330,
+          "avg_daily_views": 9952,
           "days_in_month": 30
         },
         {
           "month": "2024-10",
           "video_count": 38,
-          "total_views": 320541,
-          "avg_views_per_video": 8435,
-          "avg_daily_views": 10340,
+          "total_views": 320564,
+          "avg_views_per_video": 8436,
+          "avg_daily_views": 10341,
           "days_in_month": 31
         },
         {
           "month": "2024-11",
           "video_count": 35,
-          "total_views": 274224,
-          "avg_views_per_video": 7835,
-          "avg_daily_views": 9141,
+          "total_views": 274245,
+          "avg_views_per_video": 7836,
+          "avg_daily_views": 9142,
           "days_in_month": 30
         },
         {
           "month": "2024-12",
           "video_count": 37,
-          "total_views": 267229,
-          "avg_views_per_video": 7222,
-          "avg_daily_views": 8620,
+          "total_views": 267238,
+          "avg_views_per_video": 7223,
+          "avg_daily_views": 8621,
           "days_in_month": 31
         },
         {
           "month": "2025-01",
           "video_count": 32,
-          "total_views": 293154,
-          "avg_views_per_video": 9161,
-          "avg_daily_views": 9457,
+          "total_views": 293479,
+          "avg_views_per_video": 9171,
+          "avg_daily_views": 9467,
           "days_in_month": 31
         },
         {
           "month": "2025-02",
           "video_count": 32,
-          "total_views": 248011,
-          "avg_views_per_video": 7750,
+          "total_views": 248032,
+          "avg_views_per_video": 7751,
           "avg_daily_views": 8858,
           "days_in_month": 28
         },
         {
           "month": "2025-03",
           "video_count": 37,
-          "total_views": 274877,
-          "avg_views_per_video": 7429,
-          "avg_daily_views": 8867,
+          "total_views": 274942,
+          "avg_views_per_video": 7431,
+          "avg_daily_views": 8869,
           "days_in_month": 31
         },
         {
           "month": "2025-04",
           "video_count": 34,
-          "total_views": 379761,
-          "avg_views_per_video": 11169,
-          "avg_daily_views": 12659,
+          "total_views": 379802,
+          "avg_views_per_video": 11171,
+          "avg_daily_views": 12660,
           "days_in_month": 30
         },
         {
           "month": "2025-05",
           "video_count": 32,
-          "total_views": 340893,
-          "avg_views_per_video": 10653,
-          "avg_daily_views": 10997,
+          "total_views": 340928,
+          "avg_views_per_video": 10654,
+          "avg_daily_views": 10998,
           "days_in_month": 31
         },
         {
           "month": "2025-06",
           "video_count": 32,
-          "total_views": 311722,
-          "avg_views_per_video": 9741,
-          "avg_daily_views": 10391,
+          "total_views": 311771,
+          "avg_views_per_video": 9743,
+          "avg_daily_views": 10392,
           "days_in_month": 30
         },
         {
           "month": "2025-07",
           "video_count": 39,
-          "total_views": 361307,
-          "avg_views_per_video": 9264,
-          "avg_daily_views": 11655,
+          "total_views": 361372,
+          "avg_views_per_video": 9266,
+          "avg_daily_views": 11657,
           "days_in_month": 31
         },
         {
           "month": "2025-08",
           "video_count": 44,
-          "total_views": 370709,
-          "avg_views_per_video": 8425,
-          "avg_daily_views": 11958,
+          "total_views": 370852,
+          "avg_views_per_video": 8428,
+          "avg_daily_views": 11963,
           "days_in_month": 31
         },
         {
           "month": "2025-09",
           "video_count": 39,
-          "total_views": 314881,
-          "avg_views_per_video": 8074,
-          "avg_daily_views": 10496,
+          "total_views": 315006,
+          "avg_views_per_video": 8077,
+          "avg_daily_views": 10500,
           "days_in_month": 30
         },
         {
           "month": "2025-10",
           "video_count": 42,
-          "total_views": 320611,
-          "avg_views_per_video": 7634,
-          "avg_daily_views": 10342,
+          "total_views": 320732,
+          "avg_views_per_video": 7636,
+          "avg_daily_views": 10346,
           "days_in_month": 31
         },
         {
           "month": "2025-11",
           "video_count": 37,
-          "total_views": 284844,
-          "avg_views_per_video": 7698,
-          "avg_daily_views": 9495,
+          "total_views": 285014,
+          "avg_views_per_video": 7703,
+          "avg_daily_views": 9500,
           "days_in_month": 30
         },
         {
           "month": "2025-12",
           "video_count": 38,
-          "total_views": 319158,
-          "avg_views_per_video": 8399,
-          "avg_daily_views": 10295,
+          "total_views": 319496,
+          "avg_views_per_video": 8408,
+          "avg_daily_views": 10306,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 33,
-          "total_views": 344342,
-          "avg_views_per_video": 10435,
-          "avg_daily_views": 11108,
+          "total_views": 344478,
+          "avg_views_per_video": 10439,
+          "avg_daily_views": 11112,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 30,
-          "total_views": 276935,
-          "avg_views_per_video": 9231,
-          "avg_daily_views": 9891,
+          "total_views": 277112,
+          "avg_views_per_video": 9237,
+          "avg_daily_views": 9897,
           "days_in_month": 28
         },
         {
           "month": "2026-03",
           "video_count": 33,
-          "total_views": 292840,
-          "avg_views_per_video": 8874,
-          "avg_daily_views": 9446,
+          "total_views": 293071,
+          "avg_views_per_video": 8881,
+          "avg_daily_views": 9454,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 31,
-          "total_views": 241000,
-          "avg_views_per_video": 7774,
-          "avg_daily_views": 8033,
+          "total_views": 241164,
+          "avg_views_per_video": 7779,
+          "avg_daily_views": 8039,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 33,
-          "total_views": 266570,
-          "avg_views_per_video": 8078,
-          "avg_daily_views": 8599,
+          "total_views": 267088,
+          "avg_views_per_video": 8094,
+          "avg_daily_views": 8616,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 32,
-          "total_views": 243000,
-          "avg_views_per_video": 7594,
-          "avg_daily_views": 8100,
+          "total_views": 244386,
+          "avg_views_per_video": 7637,
+          "avg_daily_views": 8146,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 13,
-          "total_views": 98116,
-          "avg_views_per_video": 7547,
-          "avg_daily_views": 3165,
+          "video_count": 20,
+          "total_views": 159741,
+          "avg_views_per_video": 7987,
+          "avg_daily_views": 5153,
           "days_in_month": 31
         }
       ]
@@ -1607,177 +1607,177 @@
         {
           "month": "2024-10",
           "video_count": 48,
-          "total_views": 43995,
-          "avg_views_per_video": 917,
-          "avg_daily_views": 1419,
+          "total_views": 44064,
+          "avg_views_per_video": 918,
+          "avg_daily_views": 1421,
           "days_in_month": 31
         },
         {
           "month": "2024-11",
           "video_count": 29,
-          "total_views": 65002,
-          "avg_views_per_video": 2241,
-          "avg_daily_views": 2167,
+          "total_views": 65068,
+          "avg_views_per_video": 2244,
+          "avg_daily_views": 2169,
           "days_in_month": 30
         },
         {
           "month": "2024-12",
           "video_count": 34,
-          "total_views": 63582,
-          "avg_views_per_video": 1870,
-          "avg_daily_views": 2051,
+          "total_views": 63620,
+          "avg_views_per_video": 1871,
+          "avg_daily_views": 2052,
           "days_in_month": 31
         },
         {
           "month": "2025-01",
           "video_count": 31,
-          "total_views": 79952,
-          "avg_views_per_video": 2579,
-          "avg_daily_views": 2579,
+          "total_views": 80036,
+          "avg_views_per_video": 2582,
+          "avg_daily_views": 2582,
           "days_in_month": 31
         },
         {
           "month": "2025-02",
           "video_count": 25,
-          "total_views": 63282,
-          "avg_views_per_video": 2531,
-          "avg_daily_views": 2260,
+          "total_views": 63312,
+          "avg_views_per_video": 2532,
+          "avg_daily_views": 2261,
           "days_in_month": 28
         },
         {
           "month": "2025-03",
           "video_count": 28,
-          "total_views": 63771,
+          "total_views": 63792,
           "avg_views_per_video": 2278,
-          "avg_daily_views": 2057,
+          "avg_daily_views": 2058,
           "days_in_month": 31
         },
         {
           "month": "2025-04",
           "video_count": 38,
-          "total_views": 64571,
-          "avg_views_per_video": 1699,
-          "avg_daily_views": 2152,
+          "total_views": 64593,
+          "avg_views_per_video": 1700,
+          "avg_daily_views": 2153,
           "days_in_month": 30
         },
         {
           "month": "2025-05",
           "video_count": 58,
-          "total_views": 81819,
-          "avg_views_per_video": 1411,
-          "avg_daily_views": 2639,
+          "total_views": 81885,
+          "avg_views_per_video": 1412,
+          "avg_daily_views": 2641,
           "days_in_month": 31
         },
         {
           "month": "2025-06",
           "video_count": 63,
-          "total_views": 136171,
-          "avg_views_per_video": 2161,
-          "avg_daily_views": 4539,
+          "total_views": 136330,
+          "avg_views_per_video": 2164,
+          "avg_daily_views": 4544,
           "days_in_month": 30
         },
         {
           "month": "2025-07",
           "video_count": 61,
-          "total_views": 113847,
-          "avg_views_per_video": 1866,
-          "avg_daily_views": 3672,
+          "total_views": 113925,
+          "avg_views_per_video": 1868,
+          "avg_daily_views": 3675,
           "days_in_month": 31
         },
         {
           "month": "2025-08",
           "video_count": 52,
-          "total_views": 167746,
-          "avg_views_per_video": 3226,
-          "avg_daily_views": 5411,
+          "total_views": 167831,
+          "avg_views_per_video": 3228,
+          "avg_daily_views": 5414,
           "days_in_month": 31
         },
         {
           "month": "2025-09",
           "video_count": 35,
-          "total_views": 130087,
+          "total_views": 130112,
           "avg_views_per_video": 3717,
-          "avg_daily_views": 4336,
+          "avg_daily_views": 4337,
           "days_in_month": 30
         },
         {
           "month": "2025-10",
           "video_count": 54,
-          "total_views": 151535,
-          "avg_views_per_video": 2806,
-          "avg_daily_views": 4888,
+          "total_views": 151587,
+          "avg_views_per_video": 2807,
+          "avg_daily_views": 4890,
           "days_in_month": 31
         },
         {
           "month": "2025-11",
           "video_count": 69,
-          "total_views": 136872,
+          "total_views": 136905,
           "avg_views_per_video": 1984,
-          "avg_daily_views": 4562,
+          "avg_daily_views": 4564,
           "days_in_month": 30
         },
         {
           "month": "2025-12",
           "video_count": 43,
-          "total_views": 94803,
-          "avg_views_per_video": 2205,
-          "avg_daily_views": 3058,
+          "total_views": 94856,
+          "avg_views_per_video": 2206,
+          "avg_daily_views": 3060,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 29,
-          "total_views": 78918,
-          "avg_views_per_video": 2721,
-          "avg_daily_views": 2546,
+          "total_views": 78988,
+          "avg_views_per_video": 2724,
+          "avg_daily_views": 2548,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 31,
-          "total_views": 69955,
-          "avg_views_per_video": 2257,
-          "avg_daily_views": 2498,
+          "total_views": 70018,
+          "avg_views_per_video": 2259,
+          "avg_daily_views": 2501,
           "days_in_month": 28
         },
         {
           "month": "2026-03",
           "video_count": 27,
-          "total_views": 60370,
-          "avg_views_per_video": 2236,
-          "avg_daily_views": 1947,
+          "total_views": 60397,
+          "avg_views_per_video": 2237,
+          "avg_daily_views": 1948,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 29,
-          "total_views": 84618,
-          "avg_views_per_video": 2918,
-          "avg_daily_views": 2821,
+          "total_views": 84691,
+          "avg_views_per_video": 2920,
+          "avg_daily_views": 2823,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 32,
-          "total_views": 70935,
-          "avg_views_per_video": 2217,
-          "avg_daily_views": 2288,
+          "total_views": 71038,
+          "avg_views_per_video": 2220,
+          "avg_daily_views": 2292,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 28,
-          "total_views": 78374,
-          "avg_views_per_video": 2799,
-          "avg_daily_views": 2612,
+          "total_views": 78744,
+          "avg_views_per_video": 2812,
+          "avg_daily_views": 2625,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 10,
-          "total_views": 19335,
-          "avg_views_per_video": 1934,
-          "avg_daily_views": 624,
+          "video_count": 16,
+          "total_views": 32460,
+          "avg_views_per_video": 2029,
+          "avg_daily_views": 1047,
           "days_in_month": 31
         }
       ]
@@ -1789,71 +1789,71 @@
         {
           "month": "2014-10",
           "video_count": 6,
-          "total_views": 136363,
-          "avg_views_per_video": 22727,
+          "total_views": 136379,
+          "avg_views_per_video": 22730,
           "avg_daily_views": 4399,
           "days_in_month": 31
         },
         {
           "month": "2014-11",
           "video_count": 4,
-          "total_views": 163712,
-          "avg_views_per_video": 40928,
-          "avg_daily_views": 5457,
+          "total_views": 163727,
+          "avg_views_per_video": 40932,
+          "avg_daily_views": 5458,
           "days_in_month": 30
         },
         {
           "month": "2015-04",
           "video_count": 1,
-          "total_views": 3903,
-          "avg_views_per_video": 3903,
+          "total_views": 3911,
+          "avg_views_per_video": 3911,
           "avg_daily_views": 130,
           "days_in_month": 30
         },
         {
           "month": "2015-07",
           "video_count": 5,
-          "total_views": 82293,
-          "avg_views_per_video": 16459,
+          "total_views": 82316,
+          "avg_views_per_video": 16463,
           "avg_daily_views": 2655,
           "days_in_month": 31
         },
         {
           "month": "2015-08",
           "video_count": 11,
-          "total_views": 148320,
-          "avg_views_per_video": 13484,
+          "total_views": 148334,
+          "avg_views_per_video": 13485,
           "avg_daily_views": 4785,
           "days_in_month": 31
         },
         {
           "month": "2015-09",
           "video_count": 13,
-          "total_views": 66065,
-          "avg_views_per_video": 5082,
-          "avg_daily_views": 2202,
+          "total_views": 66077,
+          "avg_views_per_video": 5083,
+          "avg_daily_views": 2203,
           "days_in_month": 30
         },
         {
           "month": "2015-10",
           "video_count": 14,
-          "total_views": 1664748,
-          "avg_views_per_video": 118911,
-          "avg_daily_views": 53702,
+          "total_views": 1664779,
+          "avg_views_per_video": 118913,
+          "avg_daily_views": 53703,
           "days_in_month": 31
         },
         {
           "month": "2015-11",
           "video_count": 6,
-          "total_views": 887321,
-          "avg_views_per_video": 147887,
-          "avg_daily_views": 29577,
+          "total_views": 887331,
+          "avg_views_per_video": 147889,
+          "avg_daily_views": 29578,
           "days_in_month": 30
         },
         {
           "month": "2015-12",
           "video_count": 14,
-          "total_views": 189798,
+          "total_views": 189804,
           "avg_views_per_video": 13557,
           "avg_daily_views": 6123,
           "days_in_month": 31
@@ -1861,87 +1861,87 @@
         {
           "month": "2016-01",
           "video_count": 19,
-          "total_views": 570731,
-          "avg_views_per_video": 30038,
+          "total_views": 570746,
+          "avg_views_per_video": 30039,
           "avg_daily_views": 18411,
           "days_in_month": 31
         },
         {
           "month": "2016-02",
           "video_count": 11,
-          "total_views": 179712,
-          "avg_views_per_video": 16337,
+          "total_views": 179716,
+          "avg_views_per_video": 16338,
           "avg_daily_views": 6197,
           "days_in_month": 29
         },
         {
           "month": "2016-03",
           "video_count": 16,
-          "total_views": 163158,
-          "avg_views_per_video": 10197,
+          "total_views": 163162,
+          "avg_views_per_video": 10198,
           "avg_daily_views": 5263,
           "days_in_month": 31
         },
         {
           "month": "2016-04",
           "video_count": 6,
-          "total_views": 374331,
-          "avg_views_per_video": 62389,
+          "total_views": 374343,
+          "avg_views_per_video": 62391,
           "avg_daily_views": 12478,
           "days_in_month": 30
         },
         {
           "month": "2016-05",
           "video_count": 3,
-          "total_views": 77664,
-          "avg_views_per_video": 25888,
-          "avg_daily_views": 2505,
+          "total_views": 77672,
+          "avg_views_per_video": 25891,
+          "avg_daily_views": 2506,
           "days_in_month": 31
         },
         {
           "month": "2016-06",
           "video_count": 7,
-          "total_views": 248433,
-          "avg_views_per_video": 35490,
+          "total_views": 248444,
+          "avg_views_per_video": 35492,
           "avg_daily_views": 8281,
           "days_in_month": 30
         },
         {
           "month": "2016-07",
           "video_count": 13,
-          "total_views": 129005,
-          "avg_views_per_video": 9923,
-          "avg_daily_views": 4161,
+          "total_views": 129011,
+          "avg_views_per_video": 9924,
+          "avg_daily_views": 4162,
           "days_in_month": 31
         },
         {
           "month": "2016-08",
           "video_count": 9,
-          "total_views": 83416,
-          "avg_views_per_video": 9268,
+          "total_views": 83420,
+          "avg_views_per_video": 9269,
           "avg_daily_views": 2691,
           "days_in_month": 31
         },
         {
           "month": "2016-09",
           "video_count": 9,
-          "total_views": 77998,
-          "avg_views_per_video": 8666,
+          "total_views": 78000,
+          "avg_views_per_video": 8667,
           "avg_daily_views": 2600,
           "days_in_month": 30
         },
         {
           "month": "2016-10",
           "video_count": 16,
-          "total_views": 154611,
-          "avg_views_per_video": 9663,
-          "avg_daily_views": 4987,
+          "total_views": 154656,
+          "avg_views_per_video": 9666,
+          "avg_daily_views": 4989,
           "days_in_month": 31
         },
         {
           "month": "2016-11",
           "video_count": 5,
-          "total_views": 35413,
+          "total_views": 35414,
           "avg_views_per_video": 7083,
           "avg_daily_views": 1180,
           "days_in_month": 30
@@ -1949,8 +1949,8 @@
         {
           "month": "2016-12",
           "video_count": 7,
-          "total_views": 71585,
-          "avg_views_per_video": 10226,
+          "total_views": 71589,
+          "avg_views_per_video": 10227,
           "avg_daily_views": 2309,
           "days_in_month": 31
         },
@@ -1973,25 +1973,25 @@
         {
           "month": "2017-03",
           "video_count": 4,
-          "total_views": 128178,
-          "avg_views_per_video": 32045,
+          "total_views": 128185,
+          "avg_views_per_video": 32046,
           "avg_daily_views": 4135,
           "days_in_month": 31
         },
         {
           "month": "2017-04",
           "video_count": 2,
-          "total_views": 23556,
-          "avg_views_per_video": 11778,
+          "total_views": 23557,
+          "avg_views_per_video": 11779,
           "avg_daily_views": 785,
           "days_in_month": 30
         },
         {
           "month": "2017-05",
           "video_count": 12,
-          "total_views": 73790,
-          "avg_views_per_video": 6149,
-          "avg_daily_views": 2380,
+          "total_views": 73796,
+          "avg_views_per_video": 6150,
+          "avg_daily_views": 2381,
           "days_in_month": 31
         },
         {
@@ -2013,31 +2013,31 @@
         {
           "month": "2017-09",
           "video_count": 2,
-          "total_views": 10284,
-          "avg_views_per_video": 5142,
+          "total_views": 10286,
+          "avg_views_per_video": 5143,
           "avg_daily_views": 343,
           "days_in_month": 30
         },
         {
           "month": "2017-10",
           "video_count": 3,
-          "total_views": 18013,
-          "avg_views_per_video": 6004,
+          "total_views": 18014,
+          "avg_views_per_video": 6005,
           "avg_daily_views": 581,
           "days_in_month": 31
         },
         {
           "month": "2017-12",
           "video_count": 5,
-          "total_views": 43313,
-          "avg_views_per_video": 8663,
-          "avg_daily_views": 1397,
+          "total_views": 43327,
+          "avg_views_per_video": 8665,
+          "avg_daily_views": 1398,
           "days_in_month": 31
         },
         {
           "month": "2018-01",
           "video_count": 3,
-          "total_views": 29342,
+          "total_views": 29343,
           "avg_views_per_video": 9781,
           "avg_daily_views": 947,
           "days_in_month": 31
@@ -2045,23 +2045,23 @@
         {
           "month": "2018-02",
           "video_count": 6,
-          "total_views": 137754,
-          "avg_views_per_video": 22959,
+          "total_views": 137772,
+          "avg_views_per_video": 22962,
           "avg_daily_views": 4920,
           "days_in_month": 28
         },
         {
           "month": "2018-03",
           "video_count": 16,
-          "total_views": 161597,
-          "avg_views_per_video": 10100,
+          "total_views": 161609,
+          "avg_views_per_video": 10101,
           "avg_daily_views": 5213,
           "days_in_month": 31
         },
         {
           "month": "2018-04",
           "video_count": 9,
-          "total_views": 90153,
+          "total_views": 90157,
           "avg_views_per_video": 10017,
           "avg_daily_views": 3005,
           "days_in_month": 30
@@ -2069,7 +2069,7 @@
         {
           "month": "2018-05",
           "video_count": 8,
-          "total_views": 95368,
+          "total_views": 95371,
           "avg_views_per_video": 11921,
           "avg_daily_views": 3076,
           "days_in_month": 31
@@ -2077,55 +2077,55 @@
         {
           "month": "2018-06",
           "video_count": 14,
-          "total_views": 199227,
-          "avg_views_per_video": 14231,
-          "avg_daily_views": 6641,
+          "total_views": 199248,
+          "avg_views_per_video": 14232,
+          "avg_daily_views": 6642,
           "days_in_month": 30
         },
         {
           "month": "2018-07",
           "video_count": 8,
-          "total_views": 329121,
-          "avg_views_per_video": 41140,
+          "total_views": 329127,
+          "avg_views_per_video": 41141,
           "avg_daily_views": 10617,
           "days_in_month": 31
         },
         {
           "month": "2018-08",
           "video_count": 3,
-          "total_views": 39919,
-          "avg_views_per_video": 13306,
+          "total_views": 39929,
+          "avg_views_per_video": 13310,
           "avg_daily_views": 1288,
           "days_in_month": 31
         },
         {
           "month": "2018-09",
           "video_count": 12,
-          "total_views": 218624,
-          "avg_views_per_video": 18219,
-          "avg_daily_views": 7287,
+          "total_views": 218636,
+          "avg_views_per_video": 18220,
+          "avg_daily_views": 7288,
           "days_in_month": 30
         },
         {
           "month": "2018-10",
           "video_count": 5,
-          "total_views": 611812,
-          "avg_views_per_video": 122362,
+          "total_views": 611828,
+          "avg_views_per_video": 122366,
           "avg_daily_views": 19736,
           "days_in_month": 31
         },
         {
           "month": "2018-11",
           "video_count": 3,
-          "total_views": 88873,
-          "avg_views_per_video": 29624,
-          "avg_daily_views": 2962,
+          "total_views": 88877,
+          "avg_views_per_video": 29626,
+          "avg_daily_views": 2963,
           "days_in_month": 30
         },
         {
           "month": "2018-12",
           "video_count": 6,
-          "total_views": 97709,
+          "total_views": 97711,
           "avg_views_per_video": 16285,
           "avg_daily_views": 3152,
           "days_in_month": 31
@@ -2133,15 +2133,15 @@
         {
           "month": "2019-01",
           "video_count": 6,
-          "total_views": 191939,
-          "avg_views_per_video": 31990,
+          "total_views": 191945,
+          "avg_views_per_video": 31991,
           "avg_daily_views": 6192,
           "days_in_month": 31
         },
         {
           "month": "2019-02",
           "video_count": 8,
-          "total_views": 273277,
+          "total_views": 273282,
           "avg_views_per_video": 34160,
           "avg_daily_views": 9760,
           "days_in_month": 28
@@ -2149,7 +2149,7 @@
         {
           "month": "2019-03",
           "video_count": 19,
-          "total_views": 355503,
+          "total_views": 355514,
           "avg_views_per_video": 18711,
           "avg_daily_views": 11468,
           "days_in_month": 31
@@ -2157,23 +2157,23 @@
         {
           "month": "2019-04",
           "video_count": 20,
-          "total_views": 1021950,
-          "avg_views_per_video": 51098,
-          "avg_daily_views": 34065,
+          "total_views": 1021988,
+          "avg_views_per_video": 51099,
+          "avg_daily_views": 34066,
           "days_in_month": 30
         },
         {
           "month": "2019-05",
           "video_count": 18,
-          "total_views": 308211,
+          "total_views": 308221,
           "avg_views_per_video": 17123,
-          "avg_daily_views": 9942,
+          "avg_daily_views": 9943,
           "days_in_month": 31
         },
         {
           "month": "2019-06",
           "video_count": 18,
-          "total_views": 458546,
+          "total_views": 458551,
           "avg_views_per_video": 25475,
           "avg_daily_views": 15285,
           "days_in_month": 30
@@ -2181,31 +2181,31 @@
         {
           "month": "2019-07",
           "video_count": 19,
-          "total_views": 324316,
-          "avg_views_per_video": 17069,
+          "total_views": 324330,
+          "avg_views_per_video": 17070,
           "avg_daily_views": 10462,
           "days_in_month": 31
         },
         {
           "month": "2019-08",
           "video_count": 11,
-          "total_views": 192787,
-          "avg_views_per_video": 17526,
+          "total_views": 192799,
+          "avg_views_per_video": 17527,
           "avg_daily_views": 6219,
           "days_in_month": 31
         },
         {
           "month": "2019-09",
           "video_count": 14,
-          "total_views": 287630,
-          "avg_views_per_video": 20545,
+          "total_views": 287647,
+          "avg_views_per_video": 20546,
           "avg_daily_views": 9588,
           "days_in_month": 30
         },
         {
           "month": "2019-10",
           "video_count": 5,
-          "total_views": 86048,
+          "total_views": 86050,
           "avg_views_per_video": 17210,
           "avg_daily_views": 2776,
           "days_in_month": 31
@@ -2213,15 +2213,15 @@
         {
           "month": "2019-11",
           "video_count": 10,
-          "total_views": 151633,
-          "avg_views_per_video": 15163,
-          "avg_daily_views": 5054,
+          "total_views": 151636,
+          "avg_views_per_video": 15164,
+          "avg_daily_views": 5055,
           "days_in_month": 30
         },
         {
           "month": "2019-12",
           "video_count": 16,
-          "total_views": 418304,
+          "total_views": 418310,
           "avg_views_per_video": 26144,
           "avg_daily_views": 13494,
           "days_in_month": 31
@@ -2229,31 +2229,31 @@
         {
           "month": "2020-01",
           "video_count": 26,
-          "total_views": 459301,
-          "avg_views_per_video": 17665,
+          "total_views": 459304,
+          "avg_views_per_video": 17666,
           "avg_daily_views": 14816,
           "days_in_month": 31
         },
         {
           "month": "2020-02",
           "video_count": 20,
-          "total_views": 581249,
-          "avg_views_per_video": 29062,
+          "total_views": 581259,
+          "avg_views_per_video": 29063,
           "avg_daily_views": 20043,
           "days_in_month": 29
         },
         {
           "month": "2020-03",
           "video_count": 21,
-          "total_views": 771361,
-          "avg_views_per_video": 36731,
+          "total_views": 771367,
+          "avg_views_per_video": 36732,
           "avg_daily_views": 24883,
           "days_in_month": 31
         },
         {
           "month": "2020-04",
           "video_count": 4,
-          "total_views": 126403,
+          "total_views": 126404,
           "avg_views_per_video": 31601,
           "avg_daily_views": 4213,
           "days_in_month": 30
@@ -2261,7 +2261,7 @@
         {
           "month": "2020-05",
           "video_count": 14,
-          "total_views": 313880,
+          "total_views": 313886,
           "avg_views_per_video": 22420,
           "avg_daily_views": 10125,
           "days_in_month": 31
@@ -2269,7 +2269,7 @@
         {
           "month": "2020-06",
           "video_count": 10,
-          "total_views": 206532,
+          "total_views": 206533,
           "avg_views_per_video": 20653,
           "avg_daily_views": 6884,
           "days_in_month": 30
@@ -2277,7 +2277,7 @@
         {
           "month": "2020-07",
           "video_count": 13,
-          "total_views": 222510,
+          "total_views": 222513,
           "avg_views_per_video": 17116,
           "avg_daily_views": 7178,
           "days_in_month": 31
@@ -2285,119 +2285,119 @@
         {
           "month": "2020-08",
           "video_count": 15,
-          "total_views": 381838,
+          "total_views": 381843,
           "avg_views_per_video": 25456,
-          "avg_daily_views": 12317,
+          "avg_daily_views": 12318,
           "days_in_month": 31
         },
         {
           "month": "2020-09",
           "video_count": 14,
-          "total_views": 701582,
-          "avg_views_per_video": 50113,
-          "avg_daily_views": 23386,
+          "total_views": 701622,
+          "avg_views_per_video": 50116,
+          "avg_daily_views": 23387,
           "days_in_month": 30
         },
         {
           "month": "2020-10",
           "video_count": 11,
-          "total_views": 1059646,
-          "avg_views_per_video": 96331,
-          "avg_daily_views": 34182,
+          "total_views": 1059685,
+          "avg_views_per_video": 96335,
+          "avg_daily_views": 34183,
           "days_in_month": 31
         },
         {
           "month": "2020-11",
           "video_count": 17,
-          "total_views": 680752,
-          "avg_views_per_video": 40044,
-          "avg_daily_views": 22692,
+          "total_views": 680795,
+          "avg_views_per_video": 40047,
+          "avg_daily_views": 22693,
           "days_in_month": 30
         },
         {
           "month": "2020-12",
           "video_count": 21,
-          "total_views": 843397,
-          "avg_views_per_video": 40162,
-          "avg_daily_views": 27206,
+          "total_views": 843438,
+          "avg_views_per_video": 40164,
+          "avg_daily_views": 27208,
           "days_in_month": 31
         },
         {
           "month": "2021-01",
           "video_count": 24,
-          "total_views": 961086,
-          "avg_views_per_video": 40045,
-          "avg_daily_views": 31003,
+          "total_views": 961143,
+          "avg_views_per_video": 40048,
+          "avg_daily_views": 31005,
           "days_in_month": 31
         },
         {
           "month": "2021-02",
           "video_count": 27,
-          "total_views": 1248499,
-          "avg_views_per_video": 46241,
-          "avg_daily_views": 44589,
+          "total_views": 1248609,
+          "avg_views_per_video": 46245,
+          "avg_daily_views": 44593,
           "days_in_month": 28
         },
         {
           "month": "2021-03",
           "video_count": 35,
-          "total_views": 1716209,
-          "avg_views_per_video": 49035,
-          "avg_daily_views": 55362,
+          "total_views": 1716332,
+          "avg_views_per_video": 49038,
+          "avg_daily_views": 55366,
           "days_in_month": 31
         },
         {
           "month": "2021-04",
           "video_count": 29,
-          "total_views": 1162488,
-          "avg_views_per_video": 40086,
-          "avg_daily_views": 38750,
+          "total_views": 1162533,
+          "avg_views_per_video": 40087,
+          "avg_daily_views": 38751,
           "days_in_month": 30
         },
         {
           "month": "2021-05",
           "video_count": 32,
-          "total_views": 1065658,
-          "avg_views_per_video": 33302,
-          "avg_daily_views": 34376,
+          "total_views": 1065735,
+          "avg_views_per_video": 33304,
+          "avg_daily_views": 34379,
           "days_in_month": 31
         },
         {
           "month": "2021-06",
           "video_count": 27,
-          "total_views": 869953,
-          "avg_views_per_video": 32220,
-          "avg_daily_views": 28998,
+          "total_views": 869996,
+          "avg_views_per_video": 32222,
+          "avg_daily_views": 29000,
           "days_in_month": 30
         },
         {
           "month": "2021-07",
           "video_count": 30,
-          "total_views": 949793,
-          "avg_views_per_video": 31660,
-          "avg_daily_views": 30638,
+          "total_views": 949819,
+          "avg_views_per_video": 31661,
+          "avg_daily_views": 30639,
           "days_in_month": 31
         },
         {
           "month": "2021-08",
           "video_count": 28,
-          "total_views": 786914,
-          "avg_views_per_video": 28104,
-          "avg_daily_views": 25384,
+          "total_views": 786926,
+          "avg_views_per_video": 28105,
+          "avg_daily_views": 25385,
           "days_in_month": 31
         },
         {
           "month": "2021-09",
           "video_count": 19,
-          "total_views": 575659,
-          "avg_views_per_video": 30298,
-          "avg_daily_views": 19189,
+          "total_views": 575686,
+          "avg_views_per_video": 30299,
+          "avg_daily_views": 19190,
           "days_in_month": 30
         },
         {
           "month": "2021-10",
           "video_count": 22,
-          "total_views": 556069,
+          "total_views": 556081,
           "avg_views_per_video": 25276,
           "avg_daily_views": 17938,
           "days_in_month": 31
@@ -2405,55 +2405,55 @@
         {
           "month": "2021-11",
           "video_count": 24,
-          "total_views": 784563,
-          "avg_views_per_video": 32690,
-          "avg_daily_views": 26152,
+          "total_views": 784587,
+          "avg_views_per_video": 32691,
+          "avg_daily_views": 26153,
           "days_in_month": 30
         },
         {
           "month": "2021-12",
           "video_count": 17,
-          "total_views": 423504,
+          "total_views": 423509,
           "avg_views_per_video": 24912,
-          "avg_daily_views": 13661,
+          "avg_daily_views": 13662,
           "days_in_month": 31
         },
         {
           "month": "2022-01",
           "video_count": 26,
-          "total_views": 754656,
-          "avg_views_per_video": 29025,
+          "total_views": 754679,
+          "avg_views_per_video": 29026,
           "avg_daily_views": 24344,
           "days_in_month": 31
         },
         {
           "month": "2022-02",
           "video_count": 30,
-          "total_views": 542719,
-          "avg_views_per_video": 18091,
-          "avg_daily_views": 19383,
+          "total_views": 543146,
+          "avg_views_per_video": 18105,
+          "avg_daily_views": 19398,
           "days_in_month": 28
         },
         {
           "month": "2022-03",
           "video_count": 36,
-          "total_views": 823313,
-          "avg_views_per_video": 22870,
-          "avg_daily_views": 26558,
+          "total_views": 823367,
+          "avg_views_per_video": 22871,
+          "avg_daily_views": 26560,
           "days_in_month": 31
         },
         {
           "month": "2022-04",
           "video_count": 48,
-          "total_views": 767881,
+          "total_views": 767903,
           "avg_views_per_video": 15998,
-          "avg_daily_views": 25596,
+          "avg_daily_views": 25597,
           "days_in_month": 30
         },
         {
           "month": "2022-05",
           "video_count": 24,
-          "total_views": 470944,
+          "total_views": 470959,
           "avg_views_per_video": 19623,
           "avg_daily_views": 15192,
           "days_in_month": 31
@@ -2461,15 +2461,15 @@
         {
           "month": "2022-06",
           "video_count": 29,
-          "total_views": 421289,
-          "avg_views_per_video": 14527,
+          "total_views": 421300,
+          "avg_views_per_video": 14528,
           "avg_daily_views": 14043,
           "days_in_month": 30
         },
         {
           "month": "2022-07",
           "video_count": 33,
-          "total_views": 663823,
+          "total_views": 663829,
           "avg_views_per_video": 20116,
           "avg_daily_views": 21414,
           "days_in_month": 31
@@ -2477,15 +2477,15 @@
         {
           "month": "2022-08",
           "video_count": 43,
-          "total_views": 1136035,
-          "avg_views_per_video": 26419,
-          "avg_daily_views": 36646,
+          "total_views": 1136047,
+          "avg_views_per_video": 26420,
+          "avg_daily_views": 36647,
           "days_in_month": 31
         },
         {
           "month": "2022-09",
           "video_count": 38,
-          "total_views": 558151,
+          "total_views": 558162,
           "avg_views_per_video": 14688,
           "avg_daily_views": 18605,
           "days_in_month": 30
@@ -2493,199 +2493,199 @@
         {
           "month": "2022-10",
           "video_count": 116,
-          "total_views": 1642148,
-          "avg_views_per_video": 14156,
-          "avg_daily_views": 52973,
+          "total_views": 1642339,
+          "avg_views_per_video": 14158,
+          "avg_daily_views": 52979,
           "days_in_month": 31
         },
         {
           "month": "2022-11",
           "video_count": 120,
-          "total_views": 1874914,
-          "avg_views_per_video": 15624,
-          "avg_daily_views": 62497,
+          "total_views": 1875384,
+          "avg_views_per_video": 15628,
+          "avg_daily_views": 62513,
           "days_in_month": 30
         },
         {
           "month": "2022-12",
           "video_count": 60,
-          "total_views": 721839,
+          "total_views": 721874,
           "avg_views_per_video": 12031,
-          "avg_daily_views": 23285,
+          "avg_daily_views": 23286,
           "days_in_month": 31
         },
         {
           "month": "2023-01",
           "video_count": 56,
-          "total_views": 2332964,
-          "avg_views_per_video": 41660,
-          "avg_daily_views": 75257,
+          "total_views": 2333042,
+          "avg_views_per_video": 41661,
+          "avg_daily_views": 75259,
           "days_in_month": 31
         },
         {
           "month": "2023-02",
           "video_count": 62,
-          "total_views": 689886,
-          "avg_views_per_video": 11127,
-          "avg_daily_views": 24639,
+          "total_views": 689916,
+          "avg_views_per_video": 11128,
+          "avg_daily_views": 24640,
           "days_in_month": 28
         },
         {
           "month": "2023-03",
           "video_count": 62,
-          "total_views": 865439,
-          "avg_views_per_video": 13959,
-          "avg_daily_views": 27917,
+          "total_views": 865511,
+          "avg_views_per_video": 13960,
+          "avg_daily_views": 27920,
           "days_in_month": 31
         },
         {
           "month": "2023-04",
           "video_count": 62,
-          "total_views": 616104,
-          "avg_views_per_video": 9937,
-          "avg_daily_views": 20537,
+          "total_views": 616229,
+          "avg_views_per_video": 9939,
+          "avg_daily_views": 20541,
           "days_in_month": 30
         },
         {
           "month": "2023-05",
           "video_count": 28,
-          "total_views": 404988,
+          "total_views": 405001,
           "avg_views_per_video": 14464,
-          "avg_daily_views": 13064,
+          "avg_daily_views": 13065,
           "days_in_month": 31
         },
         {
           "month": "2023-06",
           "video_count": 59,
-          "total_views": 495101,
-          "avg_views_per_video": 8392,
-          "avg_daily_views": 16503,
+          "total_views": 495239,
+          "avg_views_per_video": 8394,
+          "avg_daily_views": 16508,
           "days_in_month": 30
         },
         {
           "month": "2023-07",
           "video_count": 64,
-          "total_views": 474451,
-          "avg_views_per_video": 7413,
-          "avg_daily_views": 15305,
+          "total_views": 474536,
+          "avg_views_per_video": 7415,
+          "avg_daily_views": 15308,
           "days_in_month": 31
         },
         {
           "month": "2023-08",
           "video_count": 67,
-          "total_views": 409130,
-          "avg_views_per_video": 6106,
-          "avg_daily_views": 13198,
+          "total_views": 409204,
+          "avg_views_per_video": 6108,
+          "avg_daily_views": 13200,
           "days_in_month": 31
         },
         {
           "month": "2023-09",
           "video_count": 50,
-          "total_views": 396657,
-          "avg_views_per_video": 7933,
-          "avg_daily_views": 13222,
+          "total_views": 396696,
+          "avg_views_per_video": 7934,
+          "avg_daily_views": 13223,
           "days_in_month": 30
         },
         {
           "month": "2023-10",
           "video_count": 52,
-          "total_views": 530315,
-          "avg_views_per_video": 10198,
+          "total_views": 530328,
+          "avg_views_per_video": 10199,
           "avg_daily_views": 17107,
           "days_in_month": 31
         },
         {
           "month": "2023-11",
           "video_count": 63,
-          "total_views": 836753,
-          "avg_views_per_video": 13282,
-          "avg_daily_views": 27892,
+          "total_views": 836855,
+          "avg_views_per_video": 13283,
+          "avg_daily_views": 27895,
           "days_in_month": 30
         },
         {
           "month": "2023-12",
           "video_count": 51,
-          "total_views": 579294,
-          "avg_views_per_video": 11359,
-          "avg_daily_views": 18687,
+          "total_views": 579509,
+          "avg_views_per_video": 11363,
+          "avg_daily_views": 18694,
           "days_in_month": 31
         },
         {
           "month": "2024-01",
           "video_count": 82,
-          "total_views": 968610,
-          "avg_views_per_video": 11812,
-          "avg_daily_views": 31245,
+          "total_views": 970499,
+          "avg_views_per_video": 11835,
+          "avg_daily_views": 31306,
           "days_in_month": 31
         },
         {
           "month": "2024-02",
           "video_count": 26,
-          "total_views": 378716,
-          "avg_views_per_video": 14566,
-          "avg_daily_views": 13059,
+          "total_views": 378798,
+          "avg_views_per_video": 14569,
+          "avg_daily_views": 13062,
           "days_in_month": 29
         },
         {
           "month": "2024-03",
           "video_count": 31,
-          "total_views": 362502,
-          "avg_views_per_video": 11694,
-          "avg_daily_views": 11694,
+          "total_views": 362628,
+          "avg_views_per_video": 11698,
+          "avg_daily_views": 11698,
           "days_in_month": 31
         },
         {
           "month": "2024-04",
           "video_count": 149,
-          "total_views": 1202550,
-          "avg_views_per_video": 8071,
-          "avg_daily_views": 40085,
+          "total_views": 1203004,
+          "avg_views_per_video": 8074,
+          "avg_daily_views": 40100,
           "days_in_month": 30
         },
         {
           "month": "2024-05",
           "video_count": 112,
-          "total_views": 979269,
-          "avg_views_per_video": 8743,
-          "avg_daily_views": 31589,
+          "total_views": 980090,
+          "avg_views_per_video": 8751,
+          "avg_daily_views": 31616,
           "days_in_month": 31
         },
         {
           "month": "2024-06",
           "video_count": 49,
-          "total_views": 398899,
-          "avg_views_per_video": 8141,
-          "avg_daily_views": 13297,
+          "total_views": 399004,
+          "avg_views_per_video": 8143,
+          "avg_daily_views": 13300,
           "days_in_month": 30
         },
         {
           "month": "2024-07",
           "video_count": 41,
-          "total_views": 350089,
-          "avg_views_per_video": 8539,
-          "avg_daily_views": 11293,
+          "total_views": 350161,
+          "avg_views_per_video": 8541,
+          "avg_daily_views": 11296,
           "days_in_month": 31
         },
         {
           "month": "2024-08",
           "video_count": 31,
-          "total_views": 227864,
-          "avg_views_per_video": 7350,
-          "avg_daily_views": 7350,
+          "total_views": 227878,
+          "avg_views_per_video": 7351,
+          "avg_daily_views": 7351,
           "days_in_month": 31
         },
         {
           "month": "2024-09",
           "video_count": 36,
-          "total_views": 295611,
-          "avg_views_per_video": 8211,
+          "total_views": 295626,
+          "avg_views_per_video": 8212,
           "avg_daily_views": 9854,
           "days_in_month": 30
         },
         {
           "month": "2024-10",
           "video_count": 26,
-          "total_views": 204376,
+          "total_views": 204390,
           "avg_views_per_video": 7861,
           "avg_daily_views": 6593,
           "days_in_month": 31
@@ -2693,169 +2693,169 @@
         {
           "month": "2024-11",
           "video_count": 33,
-          "total_views": 208574,
-          "avg_views_per_video": 6320,
-          "avg_daily_views": 6952,
+          "total_views": 208587,
+          "avg_views_per_video": 6321,
+          "avg_daily_views": 6953,
           "days_in_month": 30
         },
         {
           "month": "2024-12",
           "video_count": 66,
-          "total_views": 415305,
+          "total_views": 415358,
           "avg_views_per_video": 6293,
-          "avg_daily_views": 13397,
+          "avg_daily_views": 13399,
           "days_in_month": 31
         },
         {
           "month": "2025-01",
           "video_count": 61,
-          "total_views": 481281,
-          "avg_views_per_video": 7890,
-          "avg_daily_views": 15525,
+          "total_views": 481456,
+          "avg_views_per_video": 7893,
+          "avg_daily_views": 15531,
           "days_in_month": 31
         },
         {
           "month": "2025-02",
           "video_count": 23,
-          "total_views": 133767,
-          "avg_views_per_video": 5816,
-          "avg_daily_views": 4777,
+          "total_views": 133781,
+          "avg_views_per_video": 5817,
+          "avg_daily_views": 4778,
           "days_in_month": 28
         },
         {
           "month": "2025-03",
           "video_count": 51,
-          "total_views": 292422,
+          "total_views": 292452,
           "avg_views_per_video": 5734,
-          "avg_daily_views": 9433,
+          "avg_daily_views": 9434,
           "days_in_month": 31
         },
         {
           "month": "2025-04",
           "video_count": 86,
-          "total_views": 1098861,
-          "avg_views_per_video": 12777,
-          "avg_daily_views": 36629,
+          "total_views": 1099394,
+          "avg_views_per_video": 12784,
+          "avg_daily_views": 36646,
           "days_in_month": 30
         },
         {
           "month": "2025-05",
           "video_count": 80,
-          "total_views": 810990,
-          "avg_views_per_video": 10137,
-          "avg_daily_views": 26161,
+          "total_views": 811435,
+          "avg_views_per_video": 10143,
+          "avg_daily_views": 26175,
           "days_in_month": 31
         },
         {
           "month": "2025-06",
           "video_count": 80,
-          "total_views": 755785,
-          "avg_views_per_video": 9447,
-          "avg_daily_views": 25193,
+          "total_views": 755861,
+          "avg_views_per_video": 9448,
+          "avg_daily_views": 25195,
           "days_in_month": 30
         },
         {
           "month": "2025-07",
           "video_count": 118,
-          "total_views": 938670,
-          "avg_views_per_video": 7955,
-          "avg_daily_views": 30280,
+          "total_views": 938830,
+          "avg_views_per_video": 7956,
+          "avg_daily_views": 30285,
           "days_in_month": 31
         },
         {
           "month": "2025-08",
           "video_count": 86,
-          "total_views": 429970,
-          "avg_views_per_video": 5000,
-          "avg_daily_views": 13870,
+          "total_views": 430124,
+          "avg_views_per_video": 5001,
+          "avg_daily_views": 13875,
           "days_in_month": 31
         },
         {
           "month": "2025-09",
           "video_count": 46,
-          "total_views": 281975,
-          "avg_views_per_video": 6130,
-          "avg_daily_views": 9399,
+          "total_views": 282098,
+          "avg_views_per_video": 6133,
+          "avg_daily_views": 9403,
           "days_in_month": 30
         },
         {
           "month": "2025-10",
           "video_count": 51,
-          "total_views": 283613,
-          "avg_views_per_video": 5561,
-          "avg_daily_views": 9149,
+          "total_views": 284338,
+          "avg_views_per_video": 5575,
+          "avg_daily_views": 9172,
           "days_in_month": 31
         },
         {
           "month": "2025-11",
           "video_count": 46,
-          "total_views": 281763,
-          "avg_views_per_video": 6125,
-          "avg_daily_views": 9392,
+          "total_views": 281985,
+          "avg_views_per_video": 6130,
+          "avg_daily_views": 9400,
           "days_in_month": 30
         },
         {
           "month": "2025-12",
           "video_count": 25,
-          "total_views": 297290,
-          "avg_views_per_video": 11892,
-          "avg_daily_views": 9590,
+          "total_views": 297511,
+          "avg_views_per_video": 11900,
+          "avg_daily_views": 9597,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 88,
-          "total_views": 609969,
-          "avg_views_per_video": 6931,
-          "avg_daily_views": 19676,
+          "total_views": 610255,
+          "avg_views_per_video": 6935,
+          "avg_daily_views": 19686,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 2,
-          "total_views": 27133,
-          "avg_views_per_video": 13567,
+          "total_views": 27145,
+          "avg_views_per_video": 13573,
           "avg_daily_views": 969,
           "days_in_month": 28
         },
         {
           "month": "2026-03",
           "video_count": 6,
-          "total_views": 84605,
-          "avg_views_per_video": 14101,
-          "avg_daily_views": 2729,
+          "total_views": 84748,
+          "avg_views_per_video": 14125,
+          "avg_daily_views": 2734,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 17,
-          "total_views": 218432,
-          "avg_views_per_video": 12849,
-          "avg_daily_views": 7281,
+          "total_views": 218887,
+          "avg_views_per_video": 12876,
+          "avg_daily_views": 7296,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 90,
-          "total_views": 691534,
-          "avg_views_per_video": 7684,
-          "avg_daily_views": 22308,
+          "total_views": 692775,
+          "avg_views_per_video": 7698,
+          "avg_daily_views": 22348,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 53,
-          "total_views": 302152,
-          "avg_views_per_video": 5701,
-          "avg_daily_views": 10072,
+          "total_views": 307109,
+          "avg_views_per_video": 5795,
+          "avg_daily_views": 10237,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 27,
-          "total_views": 143016,
-          "avg_views_per_video": 5297,
-          "avg_daily_views": 4613,
+          "video_count": 49,
+          "total_views": 345225,
+          "avg_views_per_video": 7045,
+          "avg_daily_views": 11136,
           "days_in_month": 31
         }
       ]
@@ -2963,39 +2963,39 @@
         {
           "month": "2023-07",
           "video_count": 1,
-          "total_views": 3396,
-          "avg_views_per_video": 3396,
+          "total_views": 3397,
+          "avg_views_per_video": 3397,
           "avg_daily_views": 110,
           "days_in_month": 31
         },
         {
           "month": "2024-08",
           "video_count": 5,
-          "total_views": 39991,
-          "avg_views_per_video": 7998,
-          "avg_daily_views": 1290,
+          "total_views": 40024,
+          "avg_views_per_video": 8005,
+          "avg_daily_views": 1291,
           "days_in_month": 31
         },
         {
           "month": "2024-09",
           "video_count": 33,
-          "total_views": 50570,
-          "avg_views_per_video": 1532,
+          "total_views": 50575,
+          "avg_views_per_video": 1533,
           "avg_daily_views": 1686,
           "days_in_month": 30
         },
         {
           "month": "2024-10",
           "video_count": 48,
-          "total_views": 59904,
+          "total_views": 59921,
           "avg_views_per_video": 1248,
-          "avg_daily_views": 1932,
+          "avg_daily_views": 1933,
           "days_in_month": 31
         },
         {
           "month": "2024-11",
           "video_count": 43,
-          "total_views": 53867,
+          "total_views": 53870,
           "avg_views_per_video": 1253,
           "avg_daily_views": 1796,
           "days_in_month": 30
@@ -3003,7 +3003,7 @@
         {
           "month": "2024-12",
           "video_count": 47,
-          "total_views": 43217,
+          "total_views": 43218,
           "avg_views_per_video": 920,
           "avg_daily_views": 1394,
           "days_in_month": 31
@@ -3011,7 +3011,7 @@
         {
           "month": "2025-01",
           "video_count": 48,
-          "total_views": 42726,
+          "total_views": 42727,
           "avg_views_per_video": 890,
           "avg_daily_views": 1378,
           "days_in_month": 31
@@ -3019,23 +3019,23 @@
         {
           "month": "2025-02",
           "video_count": 43,
-          "total_views": 56437,
-          "avg_views_per_video": 1312,
+          "total_views": 56451,
+          "avg_views_per_video": 1313,
           "avg_daily_views": 2016,
           "days_in_month": 28
         },
         {
           "month": "2025-03",
           "video_count": 50,
-          "total_views": 54574,
-          "avg_views_per_video": 1091,
-          "avg_daily_views": 1760,
+          "total_views": 54580,
+          "avg_views_per_video": 1092,
+          "avg_daily_views": 1761,
           "days_in_month": 31
         },
         {
           "month": "2025-04",
           "video_count": 45,
-          "total_views": 53765,
+          "total_views": 53769,
           "avg_views_per_video": 1195,
           "avg_daily_views": 1792,
           "days_in_month": 30
@@ -3043,15 +3043,15 @@
         {
           "month": "2025-05",
           "video_count": 58,
-          "total_views": 54974,
+          "total_views": 54984,
           "avg_views_per_video": 948,
-          "avg_daily_views": 1773,
+          "avg_daily_views": 1774,
           "days_in_month": 31
         },
         {
           "month": "2025-06",
           "video_count": 46,
-          "total_views": 41370,
+          "total_views": 41372,
           "avg_views_per_video": 899,
           "avg_daily_views": 1379,
           "days_in_month": 30
@@ -3059,7 +3059,7 @@
         {
           "month": "2025-07",
           "video_count": 43,
-          "total_views": 39162,
+          "total_views": 39165,
           "avg_views_per_video": 911,
           "avg_daily_views": 1263,
           "days_in_month": 31
@@ -3067,7 +3067,7 @@
         {
           "month": "2025-08",
           "video_count": 44,
-          "total_views": 34657,
+          "total_views": 34664,
           "avg_views_per_video": 788,
           "avg_daily_views": 1118,
           "days_in_month": 31
@@ -3075,23 +3075,23 @@
         {
           "month": "2025-09",
           "video_count": 44,
-          "total_views": 36394,
-          "avg_views_per_video": 827,
-          "avg_daily_views": 1213,
+          "total_views": 36417,
+          "avg_views_per_video": 828,
+          "avg_daily_views": 1214,
           "days_in_month": 30
         },
         {
           "month": "2025-10",
           "video_count": 51,
-          "total_views": 60332,
+          "total_views": 60348,
           "avg_views_per_video": 1183,
-          "avg_daily_views": 1946,
+          "avg_daily_views": 1947,
           "days_in_month": 31
         },
         {
           "month": "2025-11",
           "video_count": 50,
-          "total_views": 47404,
+          "total_views": 47406,
           "avg_views_per_video": 948,
           "avg_daily_views": 1580,
           "days_in_month": 30
@@ -3099,15 +3099,15 @@
         {
           "month": "2025-12",
           "video_count": 69,
-          "total_views": 59839,
+          "total_views": 59846,
           "avg_views_per_video": 867,
-          "avg_daily_views": 1930,
+          "avg_daily_views": 1931,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 56,
-          "total_views": 49345,
+          "total_views": 49359,
           "avg_views_per_video": 881,
           "avg_daily_views": 1592,
           "days_in_month": 31
@@ -3115,7 +3115,7 @@
         {
           "month": "2026-02",
           "video_count": 37,
-          "total_views": 27633,
+          "total_views": 27639,
           "avg_views_per_video": 747,
           "avg_daily_views": 987,
           "days_in_month": 28
@@ -3123,23 +3123,23 @@
         {
           "month": "2026-03",
           "video_count": 21,
-          "total_views": 22095,
-          "avg_views_per_video": 1052,
+          "total_views": 22110,
+          "avg_views_per_video": 1053,
           "avg_daily_views": 713,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 20,
-          "total_views": 17741,
-          "avg_views_per_video": 887,
-          "avg_daily_views": 591,
+          "total_views": 17753,
+          "avg_views_per_video": 888,
+          "avg_daily_views": 592,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 22,
-          "total_views": 27436,
+          "total_views": 27444,
           "avg_views_per_video": 1247,
           "avg_daily_views": 885,
           "days_in_month": 31
@@ -3147,17 +3147,17 @@
         {
           "month": "2026-06",
           "video_count": 18,
-          "total_views": 23835,
-          "avg_views_per_video": 1324,
-          "avg_daily_views": 795,
+          "total_views": 23966,
+          "avg_views_per_video": 1331,
+          "avg_daily_views": 799,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 8,
-          "total_views": 7092,
-          "avg_views_per_video": 887,
-          "avg_daily_views": 229,
+          "video_count": 14,
+          "total_views": 12207,
+          "avg_views_per_video": 872,
+          "avg_daily_views": 394,
           "days_in_month": 31
         }
       ]
@@ -3169,8 +3169,8 @@
         {
           "month": "2021-01",
           "video_count": 1,
-          "total_views": 580,
-          "avg_views_per_video": 580,
+          "total_views": 581,
+          "avg_views_per_video": 581,
           "avg_daily_views": 19,
           "days_in_month": 31
         },
@@ -3225,103 +3225,103 @@
         {
           "month": "2023-09",
           "video_count": 12,
-          "total_views": 26799,
-          "avg_views_per_video": 2233,
+          "total_views": 26802,
+          "avg_views_per_video": 2234,
           "avg_daily_views": 893,
           "days_in_month": 30
         },
         {
           "month": "2023-10",
           "video_count": 28,
-          "total_views": 56775,
+          "total_views": 56778,
           "avg_views_per_video": 2028,
-          "avg_daily_views": 1831,
+          "avg_daily_views": 1832,
           "days_in_month": 31
         },
         {
           "month": "2023-11",
           "video_count": 34,
-          "total_views": 83833,
+          "total_views": 83856,
           "avg_views_per_video": 2466,
-          "avg_daily_views": 2794,
+          "avg_daily_views": 2795,
           "days_in_month": 30
         },
         {
           "month": "2023-12",
           "video_count": 24,
-          "total_views": 82909,
+          "total_views": 82913,
           "avg_views_per_video": 3455,
-          "avg_daily_views": 2674,
+          "avg_daily_views": 2675,
           "days_in_month": 31
         },
         {
           "month": "2024-01",
           "video_count": 31,
-          "total_views": 111256,
-          "avg_views_per_video": 3589,
-          "avg_daily_views": 3589,
+          "total_views": 111275,
+          "avg_views_per_video": 3590,
+          "avg_daily_views": 3590,
           "days_in_month": 31
         },
         {
           "month": "2024-02",
           "video_count": 27,
-          "total_views": 89887,
-          "avg_views_per_video": 3329,
+          "total_views": 89901,
+          "avg_views_per_video": 3330,
           "avg_daily_views": 3100,
           "days_in_month": 29
         },
         {
           "month": "2024-03",
           "video_count": 28,
-          "total_views": 78473,
+          "total_views": 78489,
           "avg_views_per_video": 2803,
-          "avg_daily_views": 2531,
+          "avg_daily_views": 2532,
           "days_in_month": 31
         },
         {
           "month": "2024-04",
           "video_count": 28,
-          "total_views": 76309,
-          "avg_views_per_video": 2725,
+          "total_views": 76328,
+          "avg_views_per_video": 2726,
           "avg_daily_views": 2544,
           "days_in_month": 30
         },
         {
           "month": "2024-05",
           "video_count": 29,
-          "total_views": 83139,
-          "avg_views_per_video": 2867,
-          "avg_daily_views": 2682,
+          "total_views": 83169,
+          "avg_views_per_video": 2868,
+          "avg_daily_views": 2683,
           "days_in_month": 31
         },
         {
           "month": "2024-06",
           "video_count": 29,
-          "total_views": 72189,
-          "avg_views_per_video": 2489,
-          "avg_daily_views": 2406,
+          "total_views": 72213,
+          "avg_views_per_video": 2490,
+          "avg_daily_views": 2407,
           "days_in_month": 30
         },
         {
           "month": "2024-07",
           "video_count": 24,
-          "total_views": 61552,
-          "avg_views_per_video": 2565,
-          "avg_daily_views": 1986,
+          "total_views": 61627,
+          "avg_views_per_video": 2568,
+          "avg_daily_views": 1988,
           "days_in_month": 31
         },
         {
           "month": "2024-08",
           "video_count": 21,
-          "total_views": 58973,
-          "avg_views_per_video": 2808,
-          "avg_daily_views": 1902,
+          "total_views": 58997,
+          "avg_views_per_video": 2809,
+          "avg_daily_views": 1903,
           "days_in_month": 31
         },
         {
           "month": "2024-09",
           "video_count": 29,
-          "total_views": 54368,
+          "total_views": 54372,
           "avg_views_per_video": 1875,
           "avg_daily_views": 1812,
           "days_in_month": 30
@@ -3329,7 +3329,7 @@
         {
           "month": "2024-10",
           "video_count": 27,
-          "total_views": 58844,
+          "total_views": 58846,
           "avg_views_per_video": 2179,
           "avg_daily_views": 1898,
           "days_in_month": 31
@@ -3345,7 +3345,7 @@
         {
           "month": "2024-12",
           "video_count": 41,
-          "total_views": 41532,
+          "total_views": 41538,
           "avg_views_per_video": 1013,
           "avg_daily_views": 1340,
           "days_in_month": 31
@@ -3353,7 +3353,7 @@
         {
           "month": "2025-01",
           "video_count": 33,
-          "total_views": 46727,
+          "total_views": 46728,
           "avg_views_per_video": 1416,
           "avg_daily_views": 1507,
           "days_in_month": 31
@@ -3361,16 +3361,16 @@
         {
           "month": "2025-02",
           "video_count": 19,
-          "total_views": 34662,
-          "avg_views_per_video": 1824,
+          "total_views": 34672,
+          "avg_views_per_video": 1825,
           "avg_daily_views": 1238,
           "days_in_month": 28
         },
         {
           "month": "2025-03",
           "video_count": 23,
-          "total_views": 33978,
-          "avg_views_per_video": 1477,
+          "total_views": 33985,
+          "avg_views_per_video": 1478,
           "avg_daily_views": 1096,
           "days_in_month": 31
         },
@@ -3385,7 +3385,7 @@
         {
           "month": "2025-05",
           "video_count": 34,
-          "total_views": 57221,
+          "total_views": 57236,
           "avg_views_per_video": 1683,
           "avg_daily_views": 1846,
           "days_in_month": 31
@@ -3393,23 +3393,23 @@
         {
           "month": "2025-06",
           "video_count": 23,
-          "total_views": 46418,
-          "avg_views_per_video": 2018,
-          "avg_daily_views": 1547,
+          "total_views": 46427,
+          "avg_views_per_video": 2019,
+          "avg_daily_views": 1548,
           "days_in_month": 30
         },
         {
           "month": "2025-07",
           "video_count": 23,
-          "total_views": 32969,
-          "avg_views_per_video": 1433,
+          "total_views": 32978,
+          "avg_views_per_video": 1434,
           "avg_daily_views": 1064,
           "days_in_month": 31
         },
         {
           "month": "2025-08",
           "video_count": 39,
-          "total_views": 44976,
+          "total_views": 44981,
           "avg_views_per_video": 1153,
           "avg_daily_views": 1451,
           "days_in_month": 31
@@ -3417,15 +3417,15 @@
         {
           "month": "2025-09",
           "video_count": 20,
-          "total_views": 30046,
-          "avg_views_per_video": 1502,
-          "avg_daily_views": 1002,
+          "total_views": 30082,
+          "avg_views_per_video": 1504,
+          "avg_daily_views": 1003,
           "days_in_month": 30
         },
         {
           "month": "2025-10",
           "video_count": 17,
-          "total_views": 17760,
+          "total_views": 17761,
           "avg_views_per_video": 1045,
           "avg_daily_views": 573,
           "days_in_month": 31
@@ -3433,7 +3433,7 @@
         {
           "month": "2025-11",
           "video_count": 29,
-          "total_views": 72414,
+          "total_views": 72419,
           "avg_views_per_video": 2497,
           "avg_daily_views": 2414,
           "days_in_month": 30
@@ -3441,23 +3441,23 @@
         {
           "month": "2025-12",
           "video_count": 21,
-          "total_views": 28469,
+          "total_views": 28476,
           "avg_views_per_video": 1356,
-          "avg_daily_views": 918,
+          "avg_daily_views": 919,
           "days_in_month": 31
         },
         {
           "month": "2026-01",
           "video_count": 19,
-          "total_views": 29781,
-          "avg_views_per_video": 1567,
+          "total_views": 29786,
+          "avg_views_per_video": 1568,
           "avg_daily_views": 961,
           "days_in_month": 31
         },
         {
           "month": "2026-02",
           "video_count": 26,
-          "total_views": 28625,
+          "total_views": 28629,
           "avg_views_per_video": 1101,
           "avg_daily_views": 1022,
           "days_in_month": 28
@@ -3465,41 +3465,41 @@
         {
           "month": "2026-03",
           "video_count": 24,
-          "total_views": 49947,
-          "avg_views_per_video": 2081,
-          "avg_daily_views": 1611,
+          "total_views": 49988,
+          "avg_views_per_video": 2083,
+          "avg_daily_views": 1613,
           "days_in_month": 31
         },
         {
           "month": "2026-04",
           "video_count": 15,
-          "total_views": 22610,
-          "avg_views_per_video": 1507,
-          "avg_daily_views": 754,
+          "total_views": 22638,
+          "avg_views_per_video": 1509,
+          "avg_daily_views": 755,
           "days_in_month": 30
         },
         {
           "month": "2026-05",
           "video_count": 20,
-          "total_views": 38844,
-          "avg_views_per_video": 1942,
-          "avg_daily_views": 1253,
+          "total_views": 38911,
+          "avg_views_per_video": 1946,
+          "avg_daily_views": 1255,
           "days_in_month": 31
         },
         {
           "month": "2026-06",
           "video_count": 32,
-          "total_views": 53170,
-          "avg_views_per_video": 1662,
-          "avg_daily_views": 1772,
+          "total_views": 53611,
+          "avg_views_per_video": 1675,
+          "avg_daily_views": 1787,
           "days_in_month": 30
         },
         {
           "month": "2026-07",
-          "video_count": 13,
-          "total_views": 14365,
-          "avg_views_per_video": 1105,
-          "avg_daily_views": 463,
+          "video_count": 19,
+          "total_views": 22637,
+          "avg_views_per_video": 1191,
+          "avg_daily_views": 730,
           "days_in_month": 31
         }
       ]
