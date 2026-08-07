@@ -6,6 +6,7 @@ const CHANNEL_IDS = [
     'UC1v8Pb3mVVhctpado1zkY-Q', // raport
     'UCyFrUC936RTrwRjE0tEbZCQ', // popas
     'UCSpjys0fmiuKlKq1l_NgvnA', // wloczykij
+    'UCIlq2mI3sT1AbxZWsYxR6lw', // po bandzie (mumin)
     'UCgB0Zp12H3cEWnN5kkqXNMw', // filip
     'UC3CW1FJJM08ux8HF1eVpqvQ', // pod nowym niebem
     'UCfKGYjXohzOKDH0itYRZmgw', // waldi
