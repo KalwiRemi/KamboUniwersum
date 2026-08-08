@@ -14,6 +14,7 @@ const CHANNEL_IDS = [
     'UCD1K3EhrvgFXb4U8vHBAs8w', // spocony
     'UCGt--eiSGtsDim-NxmLIrsw', // maniek
     'UCCzVeNj3KiUEqt_evIX-Hwg', // chinski prezesa
+    'UCGSVfVJbMjE-19aWmN44U9A', // ranczo prezesa
     'UC7r5cIA0t8naPg1bvjOA4eQ', // piękny roman
     'UCjbg2vx8eGFLaC3ekoVJLHg', // puzoniarze
     'UCja7PPlRxdxOttwudOu2BzQ', // leniwiec
